@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Projeto Sueide segundi bimestre</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/estilo.css">
-</head> 
-<body>
-	<div class="pag_inicial">
-		<h1 class="titulo">Seja bem vindo ao meu site</h1>
-		<div class="tela inicial">
-			<ul>
-				<a href="arquivos/cadastro.php">Faça o seu cadastro aqui</a>
-			</ul>
-		</div>
-			<a href="arquivos/pesquisa.php">Consulte a tabela com os registros</a>
-		</hgroup>
-	</div>
-</body>
+	<head>
+<title>Página de Login</title>
+  </head>
+  <body>
+ <h3 class="text-center"> Faça seu login</h3>
+<br>
+    <form name="formLogin" method="get" action="">
+    <div class="form-group">
+    <label for="usuário">Usuário</label>
+      <input class="form-control" type="text" name="usuario" placeholder="Insira seu nome">
+      </div>
+    <div class="form-group">
+    <label for="senha">Senha</label>
+      <input class="form-control" type="password" name="senha" placeholder="Insira sua senha">
+    </div>
+    <input class="btn" type="submit" value="Entrar">
+    </form>
+  </body>
 </html>
