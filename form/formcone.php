@@ -6,7 +6,7 @@
 	<title></title>
 </head>
 <body>
-<div class="form">
+<div class="forme">
 	<h1>Cadastro</h1>
 
 	<form method="POST" action="../arquivos/conexao.php">
