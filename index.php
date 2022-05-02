@@ -6,7 +6,7 @@
 <body>
     <h3 class="text-center"> Faça seu login</h3><br>
     <div class="form-group">
-          <form name="formLogin" method="get" action="conexao.php">
+          <form name="formLogin" method="POST" action="insert.php">
             <label for="usuário">Usuário</label>
             <input class="form-control" type="text" name="usuario" placeholder="Insira seu nome">
             <label for="senha">Senha</label>

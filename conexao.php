@@ -1,23 +1,13 @@
 <?php
 $servername = "localhost";
+$database = "olpcons";
 $username = "root";
 $password = "";
-$dbname = "olpcons";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
+//criando conexão com banco de dados
+$conn = new mysqli($servername, $username, $password, $database);
+//checando conexão com banco de dados
+if (!$conn) {
+    die("Connection failed: " . new mysqli());
 }
 
-$sql = "UPDATE MyGuests SET lastname='Doe' WHERE id=2";
-
-if ($conn->query($sql) === TRUE) {
-  echo "Record updated successfully";
-} else {
-  echo "Error updating record: " . $conn->error;
-}
-
-$conn->close();
 ?>
