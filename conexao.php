@@ -1,5 +1,6 @@
 <?php
 $servername = "localhost";
+
 $database = "olpcons";
 $username = "root";
 $password = "";
