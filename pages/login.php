@@ -11,7 +11,7 @@
   <body>
 
  <h3 class="login"> <label for="login">login</label></h3>
- <form name="formLogin" method="grt" action="">
+ <form name="formLogin" method="post" action="../arquivos/usuario/insert_usuario.php">
 
 <h3 class="usuario"> <label for="usuario">Usuario</label></h3>
 <input class="form-control" type="text" name="usuario" placeholder="insira seu nome">
@@ -20,6 +20,10 @@
 <input class="form-control" type="password" name="senha" placeholder="insira sua senha">
   
    <input class="btn btn-success" type="submit" value="Entrar">
-
+    
+    <h3 class="senha"><?php ;if(isset($_GET['erro'])) {
+          echo $_GET['erro'];
+        }?></h3>;
+        
 </body>
 </html>

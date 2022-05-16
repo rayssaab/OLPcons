@@ -19,7 +19,8 @@
 		return;
 	}
 	else if($descricao_produto == "") {
-		echo "Descreva o produto que você está cadastrando";
+        header("Location: registro_produtos.php");
+        echo "Descreva o produto que você está cadastrando";
 		return;
 	}}
 
@@ -27,7 +28,7 @@
     $registro = $conn->query("INSERT INTO produto(nome_produto, descricao_produto) VALUE('$nome_produto','$descricao_produto')");
 
     if($registro==true){
-        header("Location: produtos.php");
+        header("Location: tabela_de_produtos.php");
 
     }else{
         header("Location: registro_produtos.php");

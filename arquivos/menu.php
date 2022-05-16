@@ -9,7 +9,7 @@
     <p>Seja bem vindo</p>
 <div class="links">
     <ul>
-    <!--<a href="">Fazer pedidos</a>-->
+    <a href="usuario/testelogin.php">Fazer pedidos</a>
     <a href="registro_produtos.php">Registrar pordutos</a>
     </ul>
 </div>
