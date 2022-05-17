@@ -10,7 +10,7 @@
 <div class="links">
     <ul>
     <a href="usuario/testelogin.php">Fazer pedidos</a>
-    <a href="registro_produtos.php">Registrar pordutos</a>
+    <a href="../pages/registro_produtos.php">Registrar pordutos</a>
     </ul>
 </div>
 </body>

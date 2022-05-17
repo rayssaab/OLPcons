@@ -9,7 +9,7 @@
     <div class="cabecalho">
         <h1 class="titulo"><br>Registro de Produtos</h1>
             <div class="form-produtos"><!-- form registro de produtos-->
-                <form method="POST" action="funcao_registro_produto.php">
+                <form method="POST" action="../arquivos/produto/funcao_registro_produto.php">
                 <div class="nome-produto">
                     <label for="produto">Nome do produto a ser cadastrado:</label>
                     <input type="text" name="produto" placeholder="Insria o nome do produto">
@@ -19,10 +19,13 @@
                     <input type="text" name="descricao-produto" placeholder="Insira a descrição do podruto que está sendo cadastrado">
                     <input type="submit" name="Entrar">
                 </div>
-                </form>         
+                </form> 
             </div>
         </div>
     </div>
 </div>
+<?php if(isset($_GET['erro'])) {
+          echo $_GET['erro'];
+          }?>
 </body>
 </html>
