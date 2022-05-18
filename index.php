@@ -14,7 +14,7 @@
     <nav class="container">
       <ul class="menu">
         <li class="item-menu">Registro de Marca</li>
-        <li class="item-menu">Registro de Produto</li>
+        <li class="item-menu" href="../registro_produtos.php">Registro de Produto</li>
         <li class="item-menu">Registro de Cliente</li>
         <li class="item-menu">Registro de Pedido</li>
         <li class="item-menu">Registro de vendas</li>

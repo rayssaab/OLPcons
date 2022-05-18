@@ -23,7 +23,7 @@
     
     <h3 class="senha"><?php ;if(isset($_GET['erro'])) {
           echo $_GET['erro'];
-        }?></h3>;
+        }?></h3>
         
 </body>
 </html>

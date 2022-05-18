@@ -12,22 +12,22 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 	$senha = $_POST['senha'];
 
 	if($usuario == ""){
-		header("Location: ../../pages/login.php?erro=O usuário é inválido");
+		header("Location: ../../pages/registro_de_usuario.php?erro=O usuário é inválido");
 		return;
 	}
 	else if($senha == ""){
-		header("Location: ../../pages/login.php?erro=A senha é inválida");
+		header("Location: ../../pages/registro_de_usuario.php?erro=A senha é inválida");
 		return;
 	}
-	$senha = sha1($senha);
+	//$senha = sha1($senha);
 
 	$result = $conn->query("INSERT INTO usuario(nome, senha) VALUE ('$usuario','$senha')");
 	
 	if($result == true){
 		echo"Registrado";
-		header("Location: ../menu.php");
-	}else{
 		header("Location: ../../index.php");
+	}else{
+		header("Location: ../../pages/registro_de_usuario.php");
 	}
 }?>
  </body>
