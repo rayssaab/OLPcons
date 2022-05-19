@@ -13,7 +13,7 @@
                 <div class="nome-produto">
                     <label for="produto">Nome do produto a ser cadastrado:</label>
                     <input type="text" name="produto" placeholder="Insria o nome do produto">
-                </div>
+                </div>nujmikm,8b
                 <div class="descricao-produto">
                     <label for="descricao-produto">Descreva o produto que será cadastrado</label>
                     <input type="text" name="descricao-produto" placeholder="Insira a descrição do podruto que está sendo cadastrado">
