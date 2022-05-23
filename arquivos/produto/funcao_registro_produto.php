@@ -6,31 +6,47 @@
 </head>
 <body>
 <?php
-    //função para registro de produtos
-    if($_SERVER["REQUEST_METHOD"] == "POST"){
+if($_SERVER["REQUEST_METHOD"] == "POST"){
     include_once ("../conexao.php");
-    
+
     $nome_produto = $_POST['produto'];
-	$descricao_produto = $_POST['descricao-produto'];
+	$descricao_produto = $_POST['descricao_produto'];
+    $preco_produto = $_POST['preco_produto'];
+    $revenda = $_POST['revenda'];
 
-    //checando se o produto é vazio ou não
-    if($nome_produto == "") {
-        header("Location: ../../pages/registro_produtos.php?erro=O nome do produto é inválido");
-		return;
-	}
-	else if($descricao_produto == "") {
-        header("Location: ../../pages/registro_produtos.php?erro=A descrição do produto é inválida");
-        return;
-	}}
+    /*print_r("Preço do produto: R$".$preco_produto."<br>");
+    print_r("Preço da revenda: R$".$revenda."<br>");*/
 
-    //inserindo produto no banco
-    $registro = $conn->query("INSERT INTO produto(nome_produto, descricao_produto) VALUE('$nome_produto','$descricao_produto')");
+    /*print_r($lucro."<br>");*/
+    
+    if($nome_produto== ""){
+    	header("Location: ../../pages/registro_produtos.php?erro=O produto é inválido");
+    }elseif($descricao_produto==""){
+        header("Location: ../../pages/registro_produtos.php?erro=A descrição não é inválida");
+    }
 
-    if($registro==true){
-        header("Location: ../../pages/tabela_de_produtos.php");
+    if($preco_produto==""){
+        header("Location: ../../pages/registro_produtos.php?erro=O valor do produto deve ser preenchido");
+    }elseif($revenda==""){
+        header("Location: ../../pages/registro_produtos.php?erro=O valor de revenda deve ser preenchido");
+    }
 
+    $lucro= $revenda-$preco_produto;
+
+    if($lucro < $preco_produto){
+        print_r("Seu lucro está abaixo do valor do produto
+        <a href='../../pages/registro_produtos.php'>Editar</a>");
     }else{
-        header("Location: ../../registro_produtos.php");
-    }?>
+        print_r("O seu lucro é de: R$".$lucro."<br>");
+    }
+    
+        
+    $cadastro_produto = $conn->query("INSERT INTO produto(nome_produto, descricao_produto) VALUE ('$nome_produto','$descricao_produto')");
+
+    if($cadastro_produto==true){
+        echo "<br>Produto cadastrado";
+    }
+}
+?>
 </body>
 </html>

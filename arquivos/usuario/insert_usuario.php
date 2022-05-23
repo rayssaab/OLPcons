@@ -19,7 +19,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 		header("Location: ../../pages/registro_de_usuario.php?erro=A senha é inválida");
 		return;
 	}
-	//$senha = sha1($senha);
 
 	$result = $conn->query("INSERT INTO usuario(nome, senha) VALUE ('$usuario','$senha')");
 	

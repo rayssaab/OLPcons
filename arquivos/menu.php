@@ -13,7 +13,7 @@
 
     $resulta = $conn->query($sql);
 
-    print_r($resulta);
+    //print_r($resulta);
 
 ?>
 <!DOCTYPE html>
