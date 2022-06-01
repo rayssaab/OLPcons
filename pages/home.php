@@ -39,6 +39,7 @@
       <button><li> <a class="item-menu" href="../pages/registro_vendas.php">Registro de Vendas</a></li></button>
       <button><li> <a class="item-menu" href="../pages/relatorio_vendas.php">Relatório de Vendas</a></li></button>
       <button><li> <a class="item-menu" href="../pages/controle_estoque.php">Controle de Estoque</a></li></button>
+      <button><li> <a class="item-menu" href="../arquivos/usuario/sair.php" >Sair do sistema</a></li></button>
       </ul>
     </nav>
   </body>
