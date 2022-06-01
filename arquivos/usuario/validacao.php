@@ -36,7 +36,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     }else{
         $_SESSION['usuario'] = $usuario;
         $_SESSION['senha'] = $senha;
-        header('Location: ../menu.php');
+        header('Location: ../../pages/home.php');
     }
 
     }

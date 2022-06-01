@@ -11,7 +11,7 @@
   <header class="header">
       <h1 class="text-center">Login</h1>
     </header><br>
-    <form class="login" name="formLogin" method="post" action="">
+    <form class="login" name="formLogin" method="post" action="../arquivos/usuario/validacao.php">
     <label for="usuário">Usuário</label>
       <input class="usuario" type="text" name="usuario" placeholder="Insira seu nome"><br>
     
