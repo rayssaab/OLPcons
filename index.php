@@ -1,3 +1,21 @@
+<?php
+    include_once ('arquivos/conexao.php');
+
+    session_start();
+    //print_r($_SESSION);
+    if((!isset($_SESSION['usuario']) == true) and (!isset($_SESSION['senha']) == true)){
+        unset($_SESSION['usuario']);
+        unset($_SESSION['senha']);
+        header("Location: pages/login.php");
+    }
+
+    $sql = "SELECT * FROM usuario ORDER BY id DESC";
+
+    $resulta = $conn->query($sql);
+
+    //print_r($resulta);
+
+?>
 <html>
 <!DOCTYPE html>
 <html lang="pt-br">
