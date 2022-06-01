@@ -35,13 +35,13 @@
     <br>
     <div class="alinhar">
 <form>
-<a class="a" href="pages/login.php">Login</a>
-<a class="a" href="pages/registro_clientes.php">Cadastrar Clientes</a>
-<a class="a" href="pages/registro_marcas.php">Cadastrar Marcas</a>
-<a class="a" href="pages/registro_pedidos.php">Criar Pedidos</a>
-<a class="a" href="pages/registro_produtos.php">Cadastrar Produtos</a>
-<a class="a" href="pages/registro_vendas.php">Fazer Venda</a>
-<a class="a" href="pages/relatorio_vendas.php">Consultar Vendas</a>
+<a class="a" href="pages/login.php">Login</a><br>
+<a class="a" href="pages/registro_clientes.php">Cadastrar Clientes</a><br>
+<a class="a" href="pages/registro_marcas.php">Cadastrar Marcas</a><br>
+<a class="a" href="pages/registro_pedidos.php">Criar Pedidos</a><br>
+<a class="a" href="pages/registro_produtos.php">Cadastrar Produtos</a><br>
+<a class="a" href="pages/registro_vendas.php">Fazer Venda</a><br>
+<a class="a" href="pages/relatorio_vendas.php">Consultar Vendas</a><br>
 
     
 </form>
