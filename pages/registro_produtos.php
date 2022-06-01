@@ -12,21 +12,21 @@
     <div class="cabecalho">
         <h1 class="titulo"><br>Registro de Produtos</h1><br>
             <div class="form-produtos"><!-- form registro de produtos-->
-                <form method="POST" action="../arquivos/produto/funcao_registro_produto.php">
-                <div class="nome-produto">
-                    <label for="produto">Nome do produto:</label>
-                    <input type="text" name="produto"><br><br>
+                <form class="row g-3" method="POST" action="../arquivos/produto/funcao_registro_produto.php">
+                <div class="col-auto">
+                    <label for="produto" class="visually-hidden">Nome do produto:</label>
+                    <input type="text" name="produto" class="form-control-plaintext"><br>
                 </div>
-                <div class="lucratividade">
-                    <label for="preco_produto">Valor do produto:</label>
-                    <input type="text" name="preco_produto"><br><br>
+                <div class="col-auto">
+                    <label for="preco_produto" class="visually-hidden">Valor do produto:</label>
+                    <input type="text" name="preco_produto">
                     <label for="preco_venda">Valor de revenda:</label>
-                    <input type="text" name="revenda"><br><br>
+                    <input type="text" name="revenda"class="form-control-plaintext"><br>
                 </div>
-                <div class="descricao-produto">
-                    <label for="descricao-produto">Descreva o produto:</label>
-                    <input type="text" name="descricao_produto"><br><br>
-                    <input type="submit" name="Entrar">
+                <div class="col-auto">
+                    <label for="descricao-produto" class="visually-hidden">Descreva o produto:</label>
+                    <input type="text" name="descricao_produto">
+                    <input type="submit" name="Entrar" class="form-control-plaintext">
                 </div>
                 </form> 
             </div>
