@@ -1,5 +1,6 @@
 <?php
 
+//assegura que o usuário estara logado
     include_once ('../arquivos/conexao.php');
 
     session_start();
