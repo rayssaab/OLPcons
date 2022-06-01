@@ -1,59 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 body{
-    background-image: url(../img/canva.jpg);
-    background-repeat:  no-repeat;
     background-size: 100%;
-    /* background-color: aquamarine; */
+    overflow-x: hidden;
+    background-color: rgb(85, 222, 240); 
     font-family: 'Raleway',sans-serif;
 }
-.login{
-    text-align:center;
-    color:rosybrown;
-    font-size: 50px;
-}
-.senha{
-    text-align:center;
-    color: plum;
-    font-size: 18px;
-}
-.usuario{
-    text-align: center;
-    color: plum;
-    font-size: 18px;
-}
-header{
+
+.header{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 200px;
+    width: 100vw;
     background-color: rgba(125, 62, 4, 0.461);
     color:white;
-
-}
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    height: 50px;
-    margin-top: 20px;
 }
 
-.menu{
-   display: flex;
-   /* flex-grow: 2; */
+.alinhar{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
 }
 
-.menu li{
-    list-style: none;
-    background-color: rgba(254, 254, 254, 0.576);
-    width: 100px;
-    height: 50px;
-    margin-right: 10px;
-    border-radius: 10px;
-    color: SaddleBrown;
-    font-size: 12px;
+form{
+    width: 300px;
+    height: 200px;
+    position: absolute;
     text-align: center;
-    padding: 5px;
-    flex-wrap: wrap;
+    align-items: center;
+    place-items: center;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
