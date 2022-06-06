@@ -5,6 +5,8 @@ body{
     font-family: 'Raleway',sans-serif;
 }
 
+.titulo{
+}
 .header{
     display: flex;
     align-items: center;
