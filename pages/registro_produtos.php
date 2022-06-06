@@ -13,11 +13,11 @@
     <div class="corpo">
         <div class="cabecalho">
             <div id="lista">
-                <h1 class="titulo"><br>Registro de Produtos</h1><br>
+                <h1 class="titulo"><br>Tabela de Produtos</h1><br>
                 <table class="table table-striped table-hover">
                     <thead>
                         <tr>
-                            <th scope="col">N°</th>
+                            
                             <th scope="col">Nome</th>
                             <th scope="col">Valor do produto</th>
                             <th scope="col">Valor de revenda</th>
@@ -39,6 +39,11 @@
                         </tr>
                         <tr>
                             <th scope="row">3</th>
+                            <td colspan="2"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
                             <td colspan="2"></td>
                             <td></td>
                         </tr>

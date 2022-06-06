@@ -1,18 +1,15 @@
 body{
     background-size: 100%;
-    background-color: rgba(125, 62, 4, 0.461);
     overflow-x: hidden;
     background-color: rgb(85, 222, 240); 
     font-family: 'Raleway',sans-serif;
-    
 }
 
-.cabecalho{
+.titulo{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 200px;
     width: 100vw;
     background-color: rgba(125, 62, 4, 0.461);
-    color:white;
-}
+    color:white;}
