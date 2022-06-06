@@ -1,3 +1,22 @@
+<?php
+/*
+    include_once ('../arquivos/conexao.php');
+
+    session_start();
+    //print_r($_SESSION);
+    if((!isset($_SESSION['usuario']) == true) and (!isset($_SESSION['senha']) == true)){
+        unset($_SESSION['usuario']);
+        unset($_SESSION['senha']);
+        header("Location: login.php");
+    }
+
+    $sql = "SELECT * FROM usuario ORDER BY id DESC";
+
+    $resulta = $conn->query($sql);
+
+    //print_r($resulta);
+
+*/?>
 <html>
 
 <head>
@@ -14,14 +33,15 @@
         <div class="cabecalho">
             <div id="lista">
                 <h1 class="titulo"><br>Registro de Produtos</h1><br>
-                <table class="table table-striped table-hover">
+                
+                <table class="table table-dark table-striped">
                     <thead>
                         <tr>
                             <th scope="col">N°</th>
                             <th scope="col">Nome</th>
                             <th scope="col">Valor do produto</th>
                             <th scope="col">Valor de revenda</th>
-                            <th scope="col">Descrição</th>
+                            
                         </tr>
                     </thead>
                     <tbody>
@@ -43,6 +63,8 @@
                             <td></td>
                         </tr>
                         
+
+
                     </tbody>
                 </table>
             </div>
