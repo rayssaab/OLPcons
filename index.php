@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <?php
 /* include_once('arquivos/conexao.php');
 
@@ -17,8 +17,7 @@ $resulta = $conn->query($sql);
 //print_r($resulta);
 
 /**/?>
-=======
->>>>>>> 0b36f39166e3594f7cf94d9d51a8049d46b4d539
+
 <html>
 <!DOCTYPE html>
 <html lang="pt-br">

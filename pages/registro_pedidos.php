@@ -80,7 +80,7 @@
             </div>
             <h1 class="titulo"><br>Registro de Pedidos</h1><br>
             <div class="form-produtos">
-                <!-- form registro de produtos-->
+                <!-- form registro de pedidos-->
                 <form method="POST" action="../arquivos/produto/funcao_registro_produto.php">
                     <div class="nome-produto">
                         <label for="produto">Nome do produto:</label>
