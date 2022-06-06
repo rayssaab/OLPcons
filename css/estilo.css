@@ -33,3 +33,21 @@ form{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+
+.menu li{
+    list-style: none;
+    background-color: rgba(254, 254, 254, 0.5);
+    width: 100px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: none;
+    color: rgb(83, 41, 11);
+    font-size: 17px;
+    text-align: center;
+    padding: 5px;
+    flex-wrap: wrap;
+    cursor: pointer;
+    font-weight: bold;
+}

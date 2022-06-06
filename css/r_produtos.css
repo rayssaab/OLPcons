@@ -7,12 +7,14 @@ body{
     
 }
 
-.cabecalho{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.row{
+    width: 300px;
     height: 200px;
-    width: 100vw;
-    background-color: rgba(125, 62, 4, 0.461);
-    color:white;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    place-items: center;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
