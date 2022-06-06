@@ -37,10 +37,6 @@
                     <thead>
                         <tr>
 
-                <h1 class="titulo"><br>Registro de Produtos</h1><br>
-                <table class="table table-striped table-hover">
-                    <thead>
-                        <tr>
 
                             <th scope="col">Nome</th>
                             <th scope="col">Valor do produto</th>
