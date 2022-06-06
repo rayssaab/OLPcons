@@ -17,10 +17,10 @@
   </header>
   <br>
   <div class="alinhar">
-<form>
+    <form>
     <a class="a" href="pages/login.php">Login</a>
-</form>
-  </div>
+    </form>
+</div>
 </body>
 
 </html>
