@@ -1,5 +1,28 @@
-<html>
+<?php
+/*
+    include_once ('../arquivos/conexao.php');
 
+    session_start();
+    //print_r($_SESSION);
+    if((!isset($_SESSION['usuario']) == true) and (!isset($_SESSION['senha']) == true)){
+        unset($_SESSION['usuario']);
+        unset($_SESSION['senha']);
+        header("Location: login.php");
+    }
+
+    $sql = "SELECT * FROM usuario ORDER BY id DESC";
+
+    $resulta = $conn->query($sql);
+
+    //print_r($resulta);
+
+*/ ?>
+<html>
+<<<<<<< HEAD
+
+=======
+<html>
+>>>>>>> 623450bcc375d374931d22dd9886521210e6ec8b
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/r_produtos.css" type="text/css">
@@ -13,15 +36,27 @@
     <div class="corpo">
         <div class="cabecalho">
             <div id="lista">
+<<<<<<< HEAD
                 <h1 class="titulo"><br>Tabela de Produtos</h1><br>
                 <table class="table table-striped table-hover">
                     <thead>
                         <tr>
                             
+=======
+                <h1 class="titulo"><br>Registro de Produtos</h1><br>
+                <table class="table table-striped table-hover">
+                    <thead>
+                        <tr>
+
+>>>>>>> 623450bcc375d374931d22dd9886521210e6ec8b
                             <th scope="col">Nome</th>
                             <th scope="col">Valor do produto</th>
                             <th scope="col">Valor de revenda</th>
                             <th scope="col">Descrição</th>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 623450bcc375d374931d22dd9886521210e6ec8b
                         </tr>
                     </thead>
                     <tbody>
@@ -44,6 +79,7 @@
                         </tr>
                         <tr>
                             <th scope="row">4</th>
+<<<<<<< HEAD
                             <td colspan="2"></td>
                             <td></td>
                         </tr>
@@ -51,6 +87,33 @@
                     </tbody>
                 </table>
 
+=======
+                            <td colspan="3"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h1 class="titulo"><br>Registro de Produtos</h1><br>
+            <div class="form-produtos">
+                <!-- form registro de produtos-->
+                <form method="POST" action="../arquivos/produto/funcao_registro_produto.php">
+                    <div class="nome-produto">
+                        <label for="produto">Nome do produto:</label>
+                        <input type="text" name="produto"><br><br>
+                    </div>
+                    <div class="lucratividade">
+                        <label for="preco_produto">Valor do produto:</label>
+                        <input type="text" name="preco_produto"><br><br>
+                        <label for="preco_venda">Valor de revenda:</label>
+                        <input type="text" name="revenda"><br><br>
+                    </div>
+                    <div class="descricao-produto">
+                        <label for="descricao-produto">Descreva o produto:</label>
+                        <input type="text" name="descricao_produto"><br><br>
+                        <button type="button" class="btn btn-outline-dark">Entrar</button>
+                    </div>
+                </form>
+>>>>>>> 623450bcc375d374931d22dd9886521210e6ec8b
             </div>
             <h1 class="titulo"><br>Registro de Produtos</h1><br>
             <div class="form-produtos">
@@ -77,6 +140,10 @@
 
         </div>
     </div>
+<<<<<<< HEAD
+=======
+    </div>
+>>>>>>> 623450bcc375d374931d22dd9886521210e6ec8b
     <br>
     <?php if (isset($_GET['erro'])) {
         echo $_GET['erro'];
