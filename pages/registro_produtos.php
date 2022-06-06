@@ -1,5 +1,24 @@
-<html>
+<?php
 
+    include_once ('../arquivos/conexao.php');
+
+    session_start();
+    //print_r($_SESSION);
+    if((!isset($_SESSION['usuario']) == true) and (!isset($_SESSION['senha']) == true)){
+        unset($_SESSION['usuario']);
+        unset($_SESSION['senha']);
+        header("Location: login.php");
+    }
+
+    $sql = "SELECT * FROM usuario ORDER BY id DESC";
+
+    $resulta = $conn->query($sql);
+
+    //print_r($resulta);
+
+?>
+<html>
+<html>
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/r_produtos.css" type="text/css">
@@ -13,11 +32,10 @@
     <div class="corpo">
         <div class="cabecalho">
             <div id="lista">
-                <h1 class="titulo"><br>Registro de Produtos</h1><br>
+                <h1 class="titulo"><br>Tabela de Produtos</h1><br>
                 <table class="table table-striped table-hover">
                     <thead>
                         <tr>
-                            <th scope="col">N°</th>
                             <th scope="col">Nome</th>
                             <th scope="col">Valor do produto</th>
                             <th scope="col">Valor de revenda</th>
@@ -42,10 +60,19 @@
                             <td colspan="2"></td>
                             <td></td>
                         </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                             <td colspan="2"></td>
+                            <td></td>
+                        </tr>
                         
                     </tbody>
                 </table>
-
+                            <td colspan="3"></td>
+                        </tr>
+                    </tbody>
+                </table>
+          
             </div>
             <h1 class="titulo"><br>Registro de Produtos</h1><br>
             <div class="form-produtos">
@@ -68,11 +95,8 @@
                     </div>
                 </form>
             </div>
-
-
         </div>
     </div>
-    <br>
     <?php if (isset($_GET['erro'])) {
         echo $_GET['erro'];
     } ?>

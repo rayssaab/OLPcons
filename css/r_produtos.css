@@ -1,12 +1,11 @@
 body{
     background-size: 100%;
-    background-color: rgba(125, 62, 4, 0.461);
     overflow-x: hidden;
     background-color: rgb(85, 222, 240); 
     font-family: 'Raleway',sans-serif;
-    
 }
 
+<<<<<<< HEAD
 .row{
     width: 300px;
     height: 200px;
@@ -18,3 +17,39 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+=======
+.titulo{
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 100vw;
+    background-color: rgba(125, 62, 4, 0.461);
+    color:white;
+}
+
+.menu li{
+    list-style: none;
+    background-color: rgba(254, 254, 254, 0.5);
+    width: 100px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: none;
+    color: rgb(83, 41, 11);
+    font-size: 17px;
+    text-align: center;
+    padding: 5px;
+    flex-wrap: wrap;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button{
+    border: 0;
+    background-color: transparent;
+    outline-style: none !important;
+}
+>>>>>>> 67ec6189b6945dab191d27b07f551af1b0621a79
