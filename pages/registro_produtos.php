@@ -16,7 +16,7 @@
 
     //print_r($resulta);
 
-*/?>
+*/ ?>
 <html>
 
 <head>
@@ -28,20 +28,26 @@
     <html>
 </head>
 
-<body>
+    <body>
+        
+
     <div class="corpo">
         <div class="cabecalho">
             <div id="lista">
                 <h1 class="titulo"><br>Registro de Produtos</h1><br>
+
                 
-                <table class="table table-dark table-striped">
+
+
+                <table class="table table-striped table-hover">
                     <thead>
                         <tr>
-                            <th scope="col">N°</th>
+                            
                             <th scope="col">Nome</th>
                             <th scope="col">Valor do produto</th>
                             <th scope="col">Valor de revenda</th>
-                            
+                            <th scope="col">Descrição</th>
+
                         </tr>
                     </thead>
                     <tbody>
@@ -62,7 +68,11 @@
                             <td colspan="2"></td>
                             <td></td>
                         </tr>
-                        
+                        <tr>
+                            <th scope="row">4</th>
+                            <td colspan="3"></td>
+                        </tr>
+
 
 
                     </tbody>
@@ -85,7 +95,7 @@
                     <div class="descricao-produto">
                         <label for="descricao-produto">Descreva o produto:</label>
                         <input type="text" name="descricao_produto"><br><br>
-                        <input type="submit" name="Entrar">
+                        <button type="button" class="btn btn-outline-dark">Entrar</button>
                     </div>
                 </form>
             </div>
