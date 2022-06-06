@@ -1,5 +1,6 @@
 <?php
-/*
+
+//assegura que o usuário estara logado
     include_once ('../arquivos/conexao.php');
 
     session_start();
@@ -16,7 +17,7 @@
 
     //print_r($resulta);
 
-    */?>
+    ?>
 <html>
   <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -39,6 +40,7 @@
       <button><li> <a class="item-menu" href="../pages/registro_vendas.php">Registro de Vendas</a></li></button>
       <button><li> <a class="item-menu" href="../pages/relatorio_vendas.php">Relatório de Vendas</a></li></button>
       <button><li> <a class="item-menu" href="../pages/controle_estoque.php">Controle de Estoque</a></li></button>
+      <button><li> <a class="item-menu" href="../arquivos/usuario/sair.php" >Sair do sistema</a></li></button>
       </ul>
     </nav>
   </body>

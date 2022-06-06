@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 /* include_once('arquivos/conexao.php');
 
@@ -16,6 +17,8 @@ $resulta = $conn->query($sql);
 //print_r($resulta);
 
 /**/?>
+=======
+>>>>>>> 0b36f39166e3594f7cf94d9d51a8049d46b4d539
 <html>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -35,15 +38,10 @@ $resulta = $conn->query($sql);
   </header>
   <br>
   <div class="alinhar">
-    <a class="a" href="pages/login.php">Login</a><br>
-    <a class="a" href="pages/registro_clientes.php">Cadastrar Clientes</a><br>
-    <a class="a" href="pages/registro_marcas.php">Cadastrar Marcas</a><br>
-    <a class="a" href="pages/registro_pedidos.php">Criar Pedidos</a><br>
-    <a class="a" href="pages/registro_produtos.php">Cadastrar Produtos</a><br>
-    <a class="a" href="pages/registro_vendas.php">Fazer Venda</a><br>
-    <a class="a" href="pages/relatorio_vendas.php">Consultar Vendas</a><br>
-
-  </div>
+    <form>
+    <a class="a" href="pages/login.php">Login</a>
+    </form>
+</div>
 </body>
 
 </html>
