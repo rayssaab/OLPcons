@@ -15,7 +15,10 @@
     $resulta = $conn->query($sql);
 
     //print_r($resulta);
- ?>
+
+?>
+<html>
+<html>
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/r_produtos.css" type="text/css">
@@ -33,7 +36,13 @@
                 <table class="table table-striped table-hover">
                     <thead>
                         <tr>
-                            <th scope="col">Nome do produto</th>
+
+                <h1 class="titulo"><br>Registro de Produtos</h1><br>
+                <table class="table table-striped table-hover">
+                    <thead>
+                        <tr>
+
+                            <th scope="col">Nome</th>
                             <th scope="col">Valor do produto</th>
                             <th scope="col">Valor de revenda</th>
                             <th scope="col">Descrição</th>

@@ -40,16 +40,18 @@
                     <thead>
                         <tr>
                             
-                            <th scope="col">Nome</th>
-                            <th scope="col">Valor do produto</th>
-                            <th scope="col">Valor de revenda</th>
-                            <th scope="col">Descrição</th>
-                            <td></td>
+                            <th scope="col">Cliente</th>
+                            <th scope="col">Produto</th>
+                            <th scope="col">Quantidade</th>
+                            <th scope="col">Classificação</th>
+                            <th scope="col">Data de Entrega</th>
+
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <th scope="row">1</th>
+                            <td></td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -59,10 +61,12 @@
                             <td></td>
                             <td></td>
                             <td></td>
+                            <td></td>
                         </tr>
                         <tr>
                             <th scope="row">3</th>
                             <td colspan="2"></td>
+                            <td></td>
                             <td></td>
                         </tr>
                         <tr>
@@ -93,7 +97,7 @@
                     <div class="descricao-produto">
                         <label for="descricao-produto">Descreva o produto:</label>
                         <input type="text" name="descricao_produto"><br><br>
-                        <button type="button" class="btn btn-outline-dark">Entrar</button>
+                        <button type="button" class="btn btn-outline-dark">Enviar</button>
                     </div>
                 </form>
             </div>

@@ -1,5 +1,5 @@
 <?php
-
+/*
 //assegura que o usuário estara logado
     include_once ('../arquivos/conexao.php');
 
@@ -16,7 +16,7 @@
     $resulta = $conn->query($sql);
 
     //print_r($resulta);
-
+/**/
     ?>
 <html>
   <head>
