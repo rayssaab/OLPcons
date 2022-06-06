@@ -17,11 +17,11 @@
   </header>
   <br>
   <div class="alinhar">
+    <form>
     <a class="a" href="pages/login.php">Login</a><br>
-    <a class="a" href="pages/registro_clientes.php">Cadastrar Clientes</a><br>
+    </form>
+</div>
 
-
-  </div>
 </body>
 
 </html>
