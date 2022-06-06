@@ -1,7 +1,6 @@
 <?php
 /*
     include_once ('../arquivos/conexao.php');
-<<<<<<< HEAD
 
     session_start();
     //print_r($_SESSION);
@@ -19,8 +18,6 @@
 
 */ ?>
 <html>
-=======
->>>>>>> 0b36f39166e3594f7cf94d9d51a8049d46b4d539
 
     session_start();
     //print_r($_SESSION);
@@ -46,7 +43,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <html>
 </head>
-<<<<<<< HEAD
 
     <body>
         
@@ -118,30 +114,6 @@
                         <button type="button" class="btn btn-outline-dark">Entrar</button>
                     </div>
                 </form>
-=======
-<body>
-<div class="corpo">
-    <div class="cabecalho">
-        <h1 class="titulo"><br>Registro de Produtos</h1><br>
-            <div class="form-produtos"><!-- form registro de produtos-->
-                <form method="POST" action="../arquivos/produto/funcao_registro_produto.php">
-                <div class="nome-produto">
-                    <label for="produto">Nome do produto:</label>
-                    <input type="text" name="produto"><br><br>
-                </div>
-                <div class="lucratividade">
-                    <label for="preco_produto">Valor do produto:</label>
-                    <input type="text" name="preco_produto"><br><br>
-                    <label for="preco_venda">Valor de revenda:</label>
-                    <input type="text" name="revenda"><br><br>
-                </div>
-                <div class="descricao-produto">
-                    <label for="descricao-produto">Descreva o produto:</label>
-                    <input type="text" name="descricao_produto"><br><br>
-                    <input type="submit" name="Entrar">
-                </div>
-                </form> 
->>>>>>> 0b36f39166e3594f7cf94d9d51a8049d46b4d539
             </div>
         </div>
     </div>
