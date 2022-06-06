@@ -36,8 +36,6 @@
                 <table class="table table-striped table-hover">
                     <thead>
                         <tr>
-
-
                             <th scope="col">Nome</th>
                             <th scope="col">Valor do produto</th>
                             <th scope="col">Valor de revenda</th>
