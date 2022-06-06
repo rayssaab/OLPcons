@@ -1,9 +1,6 @@
 <?php
-<<<<<<< HEAD
-=======
 
 //assegura que o usuário estara logado
->>>>>>> 623450bcc375d374931d22dd9886521210e6ec8b
     include_once ('../arquivos/conexao.php');
 
     session_start();
@@ -20,11 +17,7 @@
 
     //print_r($resulta);
 
-<<<<<<< HEAD
-?>
-=======
     ?>
->>>>>>> 623450bcc375d374931d22dd9886521210e6ec8b
 <html>
   <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
