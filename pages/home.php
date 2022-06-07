@@ -35,7 +35,7 @@
       <ul class="menu">
       <button><li> <a class="item-menu" href="../pages/registro_marcas.php">Registro de Marca</a></li></button>
       <button><li> <a class="item-menu" href="../pages/registro_produtos.php">Registro de Produto</a></li></button>
-      <button><li> <a class="item-menu" href="../pages/registro_produtos.php">Registro de Cliente</a></li></button>
+      <button><li> <a class="item-menu" href="../pages/registro_clientes.php">Registro de Cliente</a></li></button>
       <button><li> <a class="item-menu" href="../pages/registro_pedidos.php">Registro de Pedido</a></li></button>
       <button><li> <a class="item-menu" href="../pages/registro_vendas.php">Registro de Vendas</a></li></button>
       <button><li> <a class="item-menu" href="../pages/relatorio_vendas.php">Relatório de Vendas</a></li></button>
