@@ -74,7 +74,7 @@
                 </table>
           
             </div>
-            <h1 class="titulo"><br>Registro de Produtos</h1><br>
+            <h1 class="titulo"><br>Registro de Produtos</h1><br><br><br>
             <div class="form-produtos">
                 <!-- form registro de produtos-->
                 <form method="POST" action="../arquivos/produto/funcao_registro_produto.php">
