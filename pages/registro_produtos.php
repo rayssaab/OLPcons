@@ -36,12 +36,6 @@
                 <table class="table table-striped table-hover">
                     <thead>
                         <tr>
-
-                <h1 class="titulo"><br>Registro de Produtos</h1><br>
-                <table class="table table-striped table-hover">
-                    <thead>
-                        <tr>
-
                             <th scope="col">Nome</th>
                             <th scope="col">Valor do produto</th>
                             <th scope="col">Valor de revenda</th>
@@ -80,7 +74,7 @@
                 </table>
           
             </div>
-            <h1 class="titulo"><br>Registro de Produtos</h1><br>
+            <h1 class="titulo"><br>Registro de Produtos</h1><br><br><br>
             <div class="form-produtos">
                 <!-- form registro de produtos-->
                 <form method="POST" action="../arquivos/produto/funcao_registro_produto.php">

@@ -1,5 +1,5 @@
 <?php
-/*
+
     include_once ('../arquivos/conexao.php');
 
     session_start();
@@ -16,7 +16,7 @@
 
     //print_r($resulta);
 
-*/ ?>
+?>
 <html>
 
 <head>
@@ -34,10 +34,7 @@
     <div class="corpo">
         <div class="cabecalho">
             <div id="lista">
-                <h1 class="titulo"><br>Registro de Pedidos</h1><br>
-
-                
-
+                <h1 class="titulo"><br>Tabela de Pedidos</h1><br>
 
                 <table class="table table-striped table-hover">
                     <thead>
@@ -85,7 +82,7 @@
             </div>
             <h1 class="titulo"><br>Registro de Pedidos</h1><br>
             <div class="form-produtos">
-                <!-- form registro de pedidos-->
+                <form registro de produtos>
                 <form method="POST" action="../arquivos/produto/funcao_registro_produto.php">
                     <div class="nome-produto">
                         <label for="produto">Nome do produto:</label>
