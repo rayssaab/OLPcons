@@ -34,7 +34,7 @@ CREATE TABLE IF NOT EXISTS `cliente` (
   `nome_cliente` varchar(30) NOT NULL,
   `compra` int NOT NULL,
   PRIMARY KEY (`id_cliente`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) 
 
 -- --------------------------------------------------------
 
@@ -51,7 +51,7 @@ CREATE TABLE IF NOT EXISTS `estoque` (
   `valor_pago` int NOT NULL,
   `lucro_produto` int NOT NULL,
   PRIMARY KEY (`id_estoque`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) 
 
 -- --------------------------------------------------------
 
@@ -65,7 +65,7 @@ CREATE TABLE IF NOT EXISTS `marca` (
   `nome_marca` varchar(50) NOT NULL,
   `lucratividade` int NOT NULL,
   PRIMARY KEY (`id_marca`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+)
 
 -- --------------------------------------------------------
 
@@ -81,7 +81,7 @@ CREATE TABLE IF NOT EXISTS `pedido` (
   `data` date NOT NULL,
   `nome_cliente` varchar(100) NOT NULL,
   PRIMARY KEY (`id_pedido`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+)
 
 -- --------------------------------------------------------
 
@@ -95,7 +95,7 @@ CREATE TABLE IF NOT EXISTS `usuario` (
   `nome` varchar(100) DEFAULT NULL,
   `senha` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+)
 
 --
 -- Extraindo dados da tabela `usuario`
@@ -126,7 +126,7 @@ CREATE TABLE IF NOT EXISTS `venda` (
   `parcela` int NOT NULL,
   `data_cobranca` date NOT NULL,
   `data_paga` date NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+)
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
