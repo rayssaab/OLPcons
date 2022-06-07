@@ -30,7 +30,7 @@
   <body>
     <header class="header">
       <h1>Home</h1>
-    </header>
+    </header><br>
     <nav class="container">
       <ul class="menu">
       <button><li> <a class="item-menu" href="../pages/registro_marcas.php">Registro de Marca</a></li></button>

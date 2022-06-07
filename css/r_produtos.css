@@ -39,3 +39,25 @@ button{
     background-color: transparent;
     outline-style: none !important;
 }
+
+.form-produtos{
+    width: 40VW;
+    height: 500px;
+position: relative;
+    top: 50%;
+    margin-top: 300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+
+form{
+    display: flex;
+    
+}
+
+h1{
+    text-align: center;
+}
