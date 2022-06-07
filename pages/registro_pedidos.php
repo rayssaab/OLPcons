@@ -42,7 +42,7 @@
                 <table class="table table-striped table-hover">
                     <thead>
                         <tr>
-                            
+                        <thead class="thead-dark">
                             <th scope="col">Cliente</th>
                             <th scope="col">Produto</th>
                             <th scope="col">Quantidade</th>

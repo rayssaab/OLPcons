@@ -17,13 +17,17 @@
 
 
 
-
+                
                 <table class="table table-striped table-hover">
                     <thead>
                         <tr>
-                                <th></th>
-                            <th scope="col">Nome</th><th></th><td></td>
-                            <th scope="col">Lucratividade</th>
+                        <thead class="thead-dark">
+                            <th><th scope="col">Nome</th><th>
+                            <th scope="col">Lucratividade</th><th>
+                            
+                            
+
+
                         </tr>
                     </thead>
                     <tbody>

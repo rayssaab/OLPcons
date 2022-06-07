@@ -1,5 +1,5 @@
 <?php
-
+/*
     include_once ('../arquivos/conexao.php');
 
     session_start();
@@ -15,7 +15,7 @@
     $resulta = $conn->query($sql);
 
     //print_r($resulta);
-
+/**/
 ?>
 <html>
 <html>
