@@ -12,7 +12,7 @@ body{
     justify-content: center;
     height: 200px;
     width: 100vw;
-    background-color: rgba(125, 62, 4, 0.461);
+    background-color: rgba(7, 4, 1, 0.603);
     color:white;
 }
 
@@ -24,7 +24,7 @@ body{
     margin-right: 10px;
     border-radius: 10px;
     border: none;
-    color: rgb(83, 41, 11);
+    color:black;
     font-size: 17px;
     text-align: center;
     padding: 5px;

@@ -85,17 +85,19 @@
                 <form registro de produtos>
                 <form method="POST" action="../arquivos/produto/funcao_registro_produto.php">
                     <div class="nome-produto">
-                        <label for="produto">Nome do produto:</label>
+                        <label for="produto">Nome do Cliente:</label>
                         <input type="text" name="produto"><br><br>
                     </div>
                     <div class="lucratividade">
-                        <label for="preco_produto">Valor do produto:</label>
+                        <label for="preco_produto">Nome do Produto:</label>
                         <input type="text" name="preco_produto"><br><br>
-                        <label for="preco_venda">Valor de revenda:</label>
+                        <label for="preco_venda">Quantidade:</label>
+                        <input type="text" name="revenda"><br><br>
+                        <label for="preco_venda">Valor Total:</label>
                         <input type="text" name="revenda"><br><br>
                     </div>
                     <div class="descricao-produto">
-                        <label for="descricao-produto">Descreva o produto:</label>
+                        <label for="descricao-produto">Descrição:</label>
                         <input type="text" name="descricao_produto"><br><br>
                         <button type="button" class="btn btn-dark">Enviar</button>
                     </div>
