@@ -10,7 +10,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     include_once ("../conexao.php");
 
     $nome_produto = $_POST['produto'];
-    $valor_pago = $_POST['valor_pago'];
+    $valor_pago = (float)$_POST['valor_pago'];
     $valor_revenda = $_POST['valor_revenda'];
 
     /*print_r("Preço do produto: R$".$preco_produto."<br>");
@@ -25,10 +25,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     
     /* Checando se o valor pago e o valor de revenda foram inseridos */
 
-    $var>=1;
-    if($valor_pago !=is_numeric($var)){
-        header("Location: ../../pages/estoque.php?erro=O valor do produto deve ser preenchido");
-    }elseif($valor_revenda ==""){
+    
+    if(empty($valor_pago) || $valor_pago == 0){
+        // header("Location: ../../pages/estoque.php?erro=O valor do produto deve ser preenchido");
+        echo $valor_pago;
+        break;
+    }else if($valor_revenda ==""){
         header("Location: ../../pages/registro_produtos.php?erro=O valor de revenda deve ser preenchido");
     }
     
