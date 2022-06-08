@@ -9,7 +9,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <html>
 </head>
-r
 <body>
     <div class="corpo">
         <div class="cabecalho">
@@ -80,8 +79,8 @@ r
                     </div>
                     <div class="descricao-produto">
                         <label for="descricao-produto">Descreva o produto:</label>
-                        <input type="text" name="descricao_produto"><br>
-                        <input type="submit" name="Entrar">
+                        <input type="text" name="descricao_produto"><br><br>
+                        <button type="button" class="btn btn-outline-dark">Enviar</button>
                     </div>
                 </form>
             </div>
