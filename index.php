@@ -15,7 +15,7 @@ $resulta = $conn->query($sql);
 
 //print_r($resulta);
 
-/**/?>
+*/?>
 <html>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -37,5 +37,5 @@ $resulta = $conn->query($sql);
     <a class="a" href="pages/login.php">Login</a>
     </form>
 </div>
-</body>
+  </body>
 </html>

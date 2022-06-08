@@ -1,5 +1,4 @@
 <?php
-
     include_once ('../arquivos/conexao.php');
 
     $sql = "SELECT * FROM estoque ORDER BY id_estoque DESC";
@@ -19,12 +18,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <html>
 </head>
-
 <body>
     <div class="corpo">
         <div class="cabecalho">
             <div id="lista">
-                <h1 class="titulo"><br>Registro de Produtos</h1><br>
+                <h1 class="titulo"><br>Tabela de Produtos</h1><br>
                 <table class="table table-striped table-hover">
                     <thead>
                         <tr>
@@ -53,8 +51,9 @@
                         ?>
                     </tbody>
                 </table>
+          
             </div>
-            <h1 class="titulo"><br>Registro de Produtos</h1><br>
+            <h1 class="titulo"><br>Registro de Produtos</h1><br><br><br>
             <div class="form-produtos">
                 <!-- form registro de produtos-->
                 <form method="POST" action="../arquivos/produto/funcao_estoque.php">
@@ -79,5 +78,8 @@
     </div>
     </div>
     <br>
+    <?php if (isset($_GET['erro'])) {
+        echo $_GET['erro'];
+    } ?>
 </body>
 </html>

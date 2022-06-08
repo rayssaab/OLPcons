@@ -1,5 +1,5 @@
 <?php
-/*
+
     include_once ('../arquivos/conexao.php');
 
     session_start();
@@ -16,7 +16,7 @@
 
     //print_r($resulta);
 
-*/ ?>
+?>
 <html>
 
 <head>
@@ -34,19 +34,17 @@
     <div class="corpo">
         <div class="cabecalho">
             <div id="lista">
-                <h1 class="titulo"><br>Registro de Pedidos</h1><br>
-
-                
-
+                <h1 class="titulo"><br>Tabela de Pedidos</h1><br>
 
                 <table class="table table-striped table-hover">
                     <thead>
                         <tr>
                             
-                            <th scope="col">Nome</th>
-                            <th scope="col">Valor do produto</th>
-                            <th scope="col">Valor de revenda</th>
-                            <th scope="col">Descrição</th>
+                            <th scope="col">Cliente</th>
+                            <th scope="col">Produto</th>
+                            <th scope="col">Quantidade</th>
+                            <th scope="col">Classificação</th>
+                            <th scope="col">Data de Entrega</th>
 
                         </tr>
                     </thead>
@@ -56,9 +54,11 @@
                             <td></td>
                             <td></td>
                             <td></td>
+                            <td></td>
                         </tr>
                         <tr>
                             <th scope="row">2</th>
+                            <td></td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -67,10 +67,12 @@
                             <th scope="row">3</th>
                             <td colspan="2"></td>
                             <td></td>
+                            <td></td>
                         </tr>
                         <tr>
                             <th scope="row">4</th>
                             <td colspan="3"></td>
+                            <td></td>
                         </tr>
 
 
@@ -80,7 +82,7 @@
             </div>
             <h1 class="titulo"><br>Registro de Pedidos</h1><br>
             <div class="form-produtos">
-                <!-- form registro de produtos-->
+                <form registro de produtos>
                 <form method="POST" action="../arquivos/produto/funcao_registro_produto.php">
                     <div class="nome-produto">
                         <label for="produto">Nome do produto:</label>
@@ -95,7 +97,7 @@
                     <div class="descricao-produto">
                         <label for="descricao-produto">Descreva o produto:</label>
                         <input type="text" name="descricao_produto"><br><br>
-                        <button type="button" class="btn btn-outline-dark">Entrar</button>
+                        <button type="button" class="btn btn-outline-dark">Enviar</button>
                     </div>
                 </form>
             </div>
