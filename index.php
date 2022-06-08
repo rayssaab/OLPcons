@@ -1,4 +1,3 @@
-
 <?php
  include_once('arquivos/conexao.php');
 
@@ -16,13 +15,18 @@ $resulta = $conn->query($sql);
 
 //print_r($resulta);
 
+<<<<<<< HEAD
 ?>
 
+=======
+*/?>
+>>>>>>> 6bc99dc037f7cf99f3956b4e0caf3f520fd72e22
 <html>
 <!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="css/estilo.css" type="text/css">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -40,4 +44,8 @@ $resulta = $conn->query($sql);
     </form>
 </div>
   </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 6bc99dc037f7cf99f3956b4e0caf3f520fd72e22

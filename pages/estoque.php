@@ -1,22 +1,13 @@
 <?php
-
     include_once ('../arquivos/conexao.php');
 
-    session_start();
-    //print_r($_SESSION);
-    if((!isset($_SESSION['usuario']) == true) and (!isset($_SESSION['senha']) == true)){
-        unset($_SESSION['usuario']);
-        unset($_SESSION['senha']);
-        header("Location: login.php");
-    }
+    $sql = "SELECT * FROM estoque ORDER BY id_estoque DESC";
 
-    $sql = "SELECT * FROM usuario ORDER BY id DESC";
+    $produto_banco = $conn->query($sql);
 
-    $resulta = $conn->query($sql);
+   // print_r($produto_banco);
 
-    //print_r($resulta);
-
-?>
+ ?>
 <html>
 <html>
 <head>
@@ -27,7 +18,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <html>
 </head>
-
 <body>
     <div class="corpo">
         <div class="cabecalho">
@@ -36,40 +26,29 @@
                 <table class="table table-striped table-hover">
                     <thead>
                         <tr>
+                            <th scope="col">Id</th>
                             <th scope="col">Nome</th>
+                            <th scope="col">Marca</th>
+                            <th scope="col">Revenda</th>
                             <th scope="col">Valor do produto</th>
-                            <th scope="col">Valor de revenda</th>
-                            <th scope="col">Descrição</th>
+                            <th scope="col">Lucro</th>
+                            <th scope="col">...</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td colspan="2"></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <th scope="row">4</th>
-                             <td colspan="2"></td>
-                            <td></td>
-                        </tr>
+                        <?php
                         
-                    </tbody>
-                </table>
-                            <td colspan="3"></td>
-                        </tr>
+                            while ($produto = mysqli_fetch_assoc($produto_banco)){
+                                echo "<tr>";
+                                echo "<td>".$produto['id_estoque']."</td>";
+                                echo "<td>".$produto['nome_produto']."</td>";
+                                echo "<td>".$produto['marca_produto']."</td>";
+                                echo "<td>".$produto['valor_revenda']."</td>";
+                                echo "<td>".$produto['valor_pago']."</td>";
+                                echo "<td>".$produto['lucro_produto']."</td>";
+                            }
+                            
+                        ?>
                     </tbody>
                 </table>
           
@@ -77,29 +56,30 @@
             <h1 class="titulo"><br>Registro de Produtos</h1><br><br><br>
             <div class="form-produtos">
                 <!-- form registro de produtos-->
-                <form method="POST" action="../arquivos/produto/funcao_registro_produto.php">
+                <form method="POST" action="../arquivos/produto/funcao_estoque.php">
                     <div class="nome-produto">
                         <label for="produto">Nome do produto:</label>
                         <input type="text" name="produto"><br><br>
                     </div>
                     <div class="lucratividade">
                         <label for="preco_produto">Valor do produto:</label>
-                        <input type="text" name="preco_produto"><br><br>
+                        <input type="text" name="valor_pago"><br><br>
                         <label for="preco_venda">Valor de revenda:</label>
-                        <input type="text" name="revenda"><br><br>
+                        <input type="text" name="valor_revenda"><br><br>
                     </div>
                     <div class="descricao-produto">
                         <label for="descricao-produto">Descreva o produto:</label>
                         <input type="text" name="descricao_produto"><br><br>
-                        <input type="submit" name="Entrar">
+                        <input type="submit" value="Registrar">
                     </div>
                 </form>
             </div>
         </div>
     </div>
+    </div>
+    <br>
     <?php if (isset($_GET['erro'])) {
         echo $_GET['erro'];
     } ?>
 </body>
-
 </html>
