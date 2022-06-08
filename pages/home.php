@@ -1,9 +1,6 @@
 <?php
-<<<<<<< HEAD
-=======
 /*
 //assegura que o usuário estara logado
->>>>>>> 67ec6189b6945dab191d27b07f551af1b0621a79
     include_once ('../arquivos/conexao.php');
 
     session_start();
@@ -19,13 +16,8 @@
     $resulta = $conn->query($sql);
 
     //print_r($resulta);
-<<<<<<< HEAD
-
-?>
-=======
 /**/
     ?>
->>>>>>> 67ec6189b6945dab191d27b07f551af1b0621a79
 <html>
   <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
