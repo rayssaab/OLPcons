@@ -1,6 +1,6 @@
 
 <?php
-/* include_once('arquivos/conexao.php');
+ include_once('arquivos/conexao.php');
 
 session_start();
 //print_r($_SESSION);
@@ -16,7 +16,7 @@ $resulta = $conn->query($sql);
 
 //print_r($resulta);
 
-/**/?>
+?>
 
 <html>
 <!DOCTYPE html>
@@ -39,12 +39,5 @@ $resulta = $conn->query($sql);
     <a class="a" href="pages/login.php">Login</a>
     </form>
 </div>
-<<<<<<< HEAD
   </body>
 </html>
-
-alalau
-=======
-</body>
-</html>
->>>>>>> 623450bcc375d374931d22dd9886521210e6ec8b
