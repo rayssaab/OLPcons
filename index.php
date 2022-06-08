@@ -36,7 +36,7 @@
   <br>
   <div class="alinhar">
     <form>
-    <a class="a" href="pages/login.php">Login</a>
+    <a class="a" href="pages/login.php">Clique aqui para gerenciar suas vendas!</a>
     </form>
 </div>
   </body>
