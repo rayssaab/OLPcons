@@ -97,7 +97,7 @@
                     <div class="descricao-produto">
                         <label for="descricao-produto">Descreva o produto:</label>
                         <input type="text" name="descricao_produto"><br><br>
-                        <button type="button" class="btn btn-outline-dark">Enviar</button>
+                        <button type="button" class="btn btn-dark">Enviar</button>
                     </div>
                 </form>
             </div>

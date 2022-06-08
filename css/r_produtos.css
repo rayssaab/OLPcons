@@ -5,7 +5,7 @@ body{
     font-family: 'Raleway',sans-serif;
 }
 
-<<<<<<< HEAD
+
 .row{
     width: 300px;
     height: 200px;
@@ -17,7 +17,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-=======
+
 .titulo{
 }
 .header{
@@ -52,7 +52,7 @@ button{
     background-color: transparent;
     outline-style: none !important;
 }
-<<<<<<< HEAD
+
 
 .form-produtos{
     width: 40VW;
@@ -75,6 +75,4 @@ form{
 h1{
     text-align: center;
 }
-=======
->>>>>>> 67ec6189b6945dab191d27b07f551af1b0621a79
->>>>>>> cdd61fde06b3176c584557b24e5802bc6c4738ea
+
