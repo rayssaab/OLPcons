@@ -82,30 +82,17 @@
                 </table>
             </div>
             <h1 class="titulo"><br>Registro de Pedidos</h1><br>
-<<<<<<< HEAD
             <div class="form-produtos">
                 <form registro de produtos>
                 <form method="POST" action="../arquivos/produto/funcao_registro_produto.php">
                     <div class="nome-produto">
                         <label for="produto">Nome do Cliente:</label>
-=======
-            <div class="form-pedido">
-                <form registro de pedido>
-                <form method="POST" action="">
-                    <div class="cliente">
-                        <label for="cliente">Cliente:</label>
-                        <input type="text" name="cliente"><br><br>
-                    </div>
-                    <div class="produto">
-                        <label for="produto">Produto:</label>
->>>>>>> ee116d941d414ab9d72e934c23fa4ac68c89a517
                         <input type="text" name="produto"><br><br>
                     </div>   
                     <div class="quantidade">
                         <label for="quantidade">Quantidade:</label>
                         <input type="number" name="quantidade"><br><br>
                     </div>
-<<<<<<< HEAD
                     <div class="lucratividade">
                         <label for="preco_produto">Nome do Produto:</label>
                         <input type="text" name="preco_produto"><br><br>
@@ -116,10 +103,6 @@
                     </div>
                     <div class="descricao-produto">
                         <label for="descricao-produto">Descrição:</label>
-=======
-                    <div class="classificacao">
-                        <label for="classificacao">Classificação do pedido:</label>
->>>>>>> ee116d941d414ab9d72e934c23fa4ac68c89a517
                         <input type="text" name="descricao_produto"><br><br>
                     </div>
                     <div class="data_entrega">
