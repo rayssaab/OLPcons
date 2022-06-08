@@ -1,5 +1,5 @@
 <?php
-
+/*
     include_once ('../arquivos/conexao.php');
 
     session_start();
@@ -15,7 +15,7 @@
     $resulta = $conn->query($sql);
 
     //print_r($resulta);
-
+/**/ 
 ?>
 <html>
 
@@ -39,7 +39,7 @@
                 <table class="table table-striped table-hover">
                     <thead>
                         <tr>
-                            
+                        <thead class="thead-dark">
                             <th scope="col">Cliente</th>
                             <th scope="col">Produto</th>
                             <th scope="col">Quantidade</th>
@@ -97,7 +97,7 @@
                     <div class="descricao-produto">
                         <label for="descricao-produto">Descreva o produto:</label>
                         <input type="text" name="descricao_produto"><br><br>
-                        <button type="button" class="btn btn-outline-dark">Enviar</button>
+                        <button type="button" class="btn btn-dark">Enviar</button>
                     </div>
                 </form>
             </div>

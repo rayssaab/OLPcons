@@ -1,26 +1,22 @@
 <?php
- include_once('arquivos/conexao.php');
+//  include_once('arquivos/conexao.php');
 
-session_start();
+// session_start();
 //print_r($_SESSION);
-if ((!isset($_SESSION['usuario']) == true) and (!isset($_SESSION['senha']) == true)) {
-  unset($_SESSION['usuario']);
-  unset($_SESSION['senha']);
-  header("Location: pages/login.php");
-}
+// if ((!isset($_SESSION['usuario']) == true) and (!isset($_SESSION['senha']) == true)) {
+//   unset($_SESSION['usuario']);
+//   unset($_SESSION['senha']);
+//   header("Location: pages/login.php");
+// }
 
-$sql = "SELECT * FROM usuario ORDER BY id DESC";
+// $sql = "SELECT * FROM usuario ORDER BY id DESC";
 
-$resulta = $conn->query($sql);
+// $resulta = $conn->query($sql);
 
 //print_r($resulta);
 
-<<<<<<< HEAD
 ?>
 
-=======
-*/?>
->>>>>>> 6bc99dc037f7cf99f3956b4e0caf3f520fd72e22
 <html>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -44,8 +40,4 @@ $resulta = $conn->query($sql);
     </form>
 </div>
   </body>
-<<<<<<< HEAD
 </html>
-=======
-</html>
->>>>>>> 6bc99dc037f7cf99f3956b4e0caf3f520fd72e22

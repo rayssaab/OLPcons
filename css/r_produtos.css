@@ -16,6 +16,9 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.titulo{
+}
 .header{
     display: flex;
     align-items: center;
@@ -48,6 +51,8 @@ button{
     background-color: transparent;
     outline-style: none !important;
 }
+
+
 .form-produtos{
     width: 40VW;
     height: 500px;
@@ -69,3 +74,4 @@ form{
 h1{
     text-align: center;
 }
+

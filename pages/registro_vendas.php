@@ -8,7 +8,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <html>
 </head>
-
+r
 <body>
     <div class="corpo">
         <div class="cabecalho">
@@ -17,6 +17,7 @@
                 <table class="table table-striped table-hover">
                     <thead>
                         <tr>
+                        <thead class="thead-dark">
                             <th scope="col">N°</th>
                             <th scope="col">Cliente</th>
                             <th scope="col">Produto</th>
