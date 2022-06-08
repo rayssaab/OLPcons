@@ -1,5 +1,5 @@
 <?php
-
+/*
     include_once ('../arquivos/conexao.php');
 
     session_start();
@@ -15,11 +15,12 @@
     $resulta = $conn->query($sql);
 
     //print_r($resulta);
-
+/**/ 
 ?>
 <html>
 
 <head>
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/r_pedidos.css" type="text/css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -39,7 +40,7 @@
                 <table class="table table-striped table-hover">
                     <thead>
                         <tr>
-                            
+                        <thead class="thead-dark">
                             <th scope="col">Cliente</th>
                             <th scope="col">Produto</th>
                             <th scope="col">Quantidade</th>
@@ -50,27 +51,27 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row">1</th>
+                            <th scope="row"></th>
                             <td></td>
                             <td></td>
                             <td></td>
                             <td></td>
                         </tr>
                         <tr>
-                            <th scope="row">2</th>
+                            <th scope="row"></th>
                             <td></td>
                             <td></td>
                             <td></td>
                             <td></td>
                         </tr>
                         <tr>
-                            <th scope="row">3</th>
+                            <th scope="row"></th>
                             <td colspan="2"></td>
                             <td></td>
                             <td></td>
                         </tr>
                         <tr>
-                            <th scope="row">4</th>
+                            <th scope="row"></th>
                             <td colspan="3"></td>
                             <td></td>
                         </tr>
@@ -85,24 +86,34 @@
                 <form registro de produtos>
                 <form method="POST" action="../arquivos/produto/funcao_registro_produto.php">
                     <div class="nome-produto">
-                        <label for="produto">Nome do produto:</label>
+                        <label for="produto">Nome do Cliente:</label>
                         <input type="text" name="produto"><br><br>
+                    </div>   
+                    <div class="quantidade">
+                        <label for="quantidade">Quantidade:</label>
+                        <input type="number" name="quantidade"><br><br>
                     </div>
                     <div class="lucratividade">
-                        <label for="preco_produto">Valor do produto:</label>
+                        <label for="preco_produto">Nome do Produto:</label>
                         <input type="text" name="preco_produto"><br><br>
-                        <label for="preco_venda">Valor de revenda:</label>
+                        <label for="preco_venda">Quantidade:</label>
+                        <input type="text" name="revenda"><br><br>
+                        <label for="preco_venda">Valor Total:</label>
                         <input type="text" name="revenda"><br><br>
                     </div>
                     <div class="descricao-produto">
-                        <label for="descricao-produto">Descreva o produto:</label>
+                        <label for="descricao-produto">Descrição:</label>
                         <input type="text" name="descricao_produto"><br><br>
-                        <button type="button" class="btn btn-outline-dark">Enviar</button>
+                    </div>
+                    <div class="data_entrega">
+                        <label for="data_entrega">Data de entrega:</label>
+                        <input type="date" name="data_entrega"><br><br>
+                    </div>  
+                    <div>  
+                    <input type="submit" value="Enviar">
                     </div>
                 </form>
             </div>
-
-
         </div>
     </div>
     <br>
