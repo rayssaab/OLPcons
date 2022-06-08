@@ -1,5 +1,5 @@
 <?php
-/* include_once('arquivos/conexao.php');
+ include_once('arquivos/conexao.php');
 
 session_start();
 //print_r($_SESSION);
@@ -15,7 +15,12 @@ $resulta = $conn->query($sql);
 
 //print_r($resulta);
 
+<<<<<<< HEAD
+?>
+
+=======
 */?>
+>>>>>>> 6bc99dc037f7cf99f3956b4e0caf3f520fd72e22
 <html>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -39,4 +44,8 @@ $resulta = $conn->query($sql);
     </form>
 </div>
   </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 6bc99dc037f7cf99f3956b4e0caf3f520fd72e22
