@@ -20,7 +20,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     
     /*Checando se o produto foi informado*/
     if($nome_produto == ""){
-    	header("Location: ../../pages/registro_produtos.php?erro=O produto é inválido");
+    	header("Location: ../../pages/estoque.php?erro=O produto é inválido");
     }
     
     /* Checando se o valor pago e o valor de revenda foram inseridos */
@@ -29,7 +29,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     if(empty($valor_pago) || $valor_pago == 0){
         // header("Location: ../../pages/estoque.php?erro=O valor do produto deve ser preenchido");
         echo $valor_pago;
-        break;
+        
     }else if($valor_revenda ==""){
         header("Location: ../../pages/registro_produtos.php?erro=O valor de revenda deve ser preenchido");
     }
