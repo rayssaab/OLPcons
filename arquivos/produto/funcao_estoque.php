@@ -19,13 +19,25 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $valor_pago = $_POST['valor_pago'];
     $valor_revenda = $_POST['valor_revenda'];
 
+    /*print_r("Preço do produto: R$".$preco_produto."<br>");
+    print_r("Preço da revenda: R$".$revenda."<br>");*/
+
+    /*print_r($lucro."<br>");*/
+    
+    /*Checando se o produto foi informado*/
+    if($nome_produto == ""){
+    	header("Location: ../../pages/estoque.php?erro=O produto é inválido");
+    }
+    
     /* Checando se o valor pago e o valor de revenda foram inseridos */
 
-    if($valor_pago <=0 || $valor_pago == 0){
-        header("Location: ../../pages/estoque.php?erro=O valor do produto não é valido");
+    
+    if(empty($valor_pago) || $valor_pago == 0){
+        // header("Location: ../../pages/estoque.php?erro=O valor do produto deve ser preenchido");
+        echo $valor_pago;
         
-    }else if($valor_revenda < 0){
-        header("Location: ../../pages/estoque.php?erro=O valor de revenda não é valido");
+    }else if($valor_revenda ==""){
+        header("Location: ../../pages/registro_produtos.php?erro=O valor de revenda deve ser preenchido");
     }
 
     /*print_r("Nome: ".$nome_produto);

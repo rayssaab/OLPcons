@@ -1,26 +1,5 @@
-<?php
-//  include_once('arquivos/conexao.php');
-
-// session_start();
-//print_r($_SESSION);
-// if ((!isset($_SESSION['usuario']) == true) and (!isset($_SESSION['senha']) == true)) {
-//   unset($_SESSION['usuario']);
-//   unset($_SESSION['senha']);
-//   header("Location: pages/login.php");
-// }
-
-// $sql = "SELECT * FROM usuario ORDER BY id DESC";
-
-// $resulta = $conn->query($sql);
-
-//print_r($resulta);
-
-?>
-
-<html>
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html>
 <head>
   <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
