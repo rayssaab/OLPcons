@@ -54,7 +54,6 @@ if(!empty($_GET['id'])){
     <div class="descricao-produto">
         <label for="descricao-produto">Descreva o produto:</label>
         <input type="text" name="descricao_produto"><br><br>
-
         <input type="hidden" name="id_estoque" value="<?php echo "$id"?>">
         <input type="submit" value="Atualizar">
 </body>
