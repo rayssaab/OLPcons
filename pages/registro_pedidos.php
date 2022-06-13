@@ -96,8 +96,6 @@
                     <div class="lucratividade">
                         <label for="preco_produto">Nome do Produto:</label>
                         <input type="text" name="preco_produto"><br><br>
-                        <label for="preco_venda">Quantidade:</label>
-                        <input type="text" name="revenda"><br><br>
                         <label for="preco_venda">Valor Total:</label>
                         <input type="text" name="revenda"><br><br>
                     </div>
