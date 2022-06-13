@@ -1,6 +1,5 @@
 <?php
-   /* include_once ('../arquivos/conexao.php');
-
+   include_once ('../arquivos/conexao.php');
     session_start();
     if((!isset($_SESSION['usuario']) == true) and (!isset($_SESSION['senha']) == true)){
         unset($_SESSION['usuario']);
@@ -9,9 +8,6 @@
     }
     $sql = "SELECT * FROM usuario ORDER BY id DESC";
     $resulta = $conn->query($sql);
-
-    /**/ //print_r($resulta);
-
 ?>
 
 <html>
