@@ -15,8 +15,7 @@
   <br>
   <div class="alinhar">
     <form>
-    <a class="a" href="pages/login.php">Clique aqui para gerenciar suas vendas!</a>
-    </form>
+    <button><a type="button" class="btn btn-outline-dark" href="pages/login.php">Clique aqui para gerenciar suas vendas</a></button>
 </div>
   </body>
 </html>
