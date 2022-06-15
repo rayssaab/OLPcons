@@ -25,16 +25,14 @@
     <header class="header">
       <h1>Home</h1>
     </header><br>
-    <nav class="container">
-      <ul class="menu">
-      <button><li> <a class="item-menu" href="../pages/estoque.php">Estoque</a></li></button>
-      <button><li> <a class="item-menu" href="../pages/registro_marcas.php">Registro de Marca</a></li></button>
-      <button><li> <a class="item-menu" href="../pages/registro_clientes.php">Registro de Cliente</a></li></button>
-      <button><li> <a class="item-menu" href="../pages/registro_pedidos.php">Registro de Pedido</a></li></button>
-      <button><li> <a class="item-menu" href="../pages/registro_vendas.php">Registro de Vendas</a></li></button>
-      <button><li> <a class="item-menu" href="../pages/relatorio_vendas.php">Relatório de Vendas</a></li></button>
-      <button><li> <a class="item-menu" href="../arquivos/usuario/sair.php" >Sair do sistema</a></li></button>
-      </ul>
-    </nav>
+    <div class="button">
+      <button><a class="btn btn-outline-dark" href="../pages/estoque.php">Estoque</a></button>
+      <button><a class="btn btn-outline-dark" href="../pages/registro_marcas.php">Registro de Marca</a></button>
+      <button><a class="btn btn-outline-dark" href="../pages/registro_clientes.php">Registro de Cliente</a></button>
+      <button><a class="btn btn-outline-dark" href="../pages/registro_pedidos.php">Registro de Pedido</a></button>
+      <button><a class="btn btn-outline-dark" href="../pages/registro_vendas.php">Registro de Vendas</a></button>
+      <button><a class="btn btn-outline-dark" href="../pages/relatorio_vendas.php">Relatório de Vendas</a></button>
+      <button><a class="btn btn-outline-dark" href="../arquivos/usuario/sair.php" >Sair do sistema</a></button>
+      </div>
   </body>
 </html>

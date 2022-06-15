@@ -19,7 +19,7 @@
       <label for="senha">Senha</label>
       <input class="usuario" type="password" name="senha" placeholder="Insira sua senha"><br>
       <div class="button">
-    <a type="button" class="btn btn-outline-dark" href="home.php">Entrar</a>
+    <input type="submit" class="btn btn-outline-dark" value="Entrar">
 </div>
     </form>
   </body>
