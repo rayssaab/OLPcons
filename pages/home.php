@@ -30,6 +30,7 @@
     </header><br>
     <nav class="container">
       <ul class="menu">
+<div class="btn-group" role="group" aria-label="Basic example">
       <button><a type="button" class="btn btn-outline-dark" href="../pages/estoque.php">Controle de Estoque</a></button>
       <button><a type="button" class="btn btn-outline-dark" href="../pages/registro_marcas.php">Registro de Marca</a></button>
       <button><a type="button" class="btn btn-outline-dark" href="../pages/registro_produtos.php">Registro de Cliente</a></button>
@@ -37,7 +38,8 @@
       <button><a type="button" class="btn btn-outline-dark" href="../pages/registro_vendas.php">Registro de Vendas</a></button>
       <button><a type="button" class="btn btn-outline-dark" href="../pages/relatorio_vendas.php">Relatório de Vendas</a></button>
       <button><a type="button" class="btn btn-outline-dark" href="../arquivos/usuario/sair.php" >Sair do sistema</a></button>
-      </ul>
+</div>
+    </ul>
     </nav>
   </body>
 </html>

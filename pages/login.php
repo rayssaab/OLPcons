@@ -18,7 +18,7 @@
     
       <label for="senha">Senha</label>
       <input class="usuario" type="password" name="senha" placeholder="Insira sua senha"><br>
-      <input class= "usuario" type= "submit" value="Entrar">
+      <button><a type="button" class="btn btn-outline-dark">ENTRAR</a></button>
     </form>
   </body>
 </html>
