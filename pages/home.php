@@ -1,5 +1,6 @@
 <?php
-    include_once ('../arquivos/conexao.php');
+   /* include_once ('../arquivos/conexao.php');
+
     session_start();
     if((!isset($_SESSION['usuario']) == true) and (!isset($_SESSION['senha']) == true)){
         unset($_SESSION['usuario']);
@@ -8,6 +9,9 @@
     }
     $sql = "SELECT * FROM usuario ORDER BY id DESC";
     $resulta = $conn->query($sql);
+
+    /**/ //print_r($resulta);
+
 ?>
 
 <html>
@@ -32,7 +36,6 @@
       <button><li> <a class="item-menu" href="../pages/registro_pedidos.php">Registro de Pedido</a></li></button>
       <button><li> <a class="item-menu" href="../pages/registro_vendas.php">Registro de Vendas</a></li></button>
       <button><li> <a class="item-menu" href="../pages/relatorio_vendas.php">Relatório de Vendas</a></li></button>
-      <button><li> <a class="item-menu" href="../pages/controle_estoque.php">Controle de Estoque</a></li></button>
       <button><li> <a class="item-menu" href="../arquivos/usuario/sair.php" >Sair do sistema</a></li></button>
       </ul>
     </nav>
