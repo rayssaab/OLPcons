@@ -8,10 +8,6 @@
     }
     $sql = "SELECT * FROM usuario ORDER BY id DESC";
     $resulta = $conn->query($sql);
-<<<<<<< HEAD
-=======
-
->>>>>>> 7507b7ec3adf269bcc8194c00d84f909733e1caf
 ?>
 
 <html>
@@ -35,7 +31,7 @@
       <button><a class="btn btn-outline-dark" href="../pages/registro_pedidos.php">Registro de Pedido</a></button>
       <button><a class="btn btn-outline-dark" href="../pages/registro_vendas.php">Registro de Vendas</a></button>
       <button><a class="btn btn-outline-dark" href="../pages/relatorio_vendas.php">Relatório de Vendas</a></button>
-      <button><a class="btn btn-outline-dark" href="../arquivos/usuario/sair.php" >Sair do sistema</a></button>
+      <button><a class="btn btn-outline-dark" href="../arquivos/usuario/sair.php" >Sair </a></button>
       </div>
   </body>
 </html>
