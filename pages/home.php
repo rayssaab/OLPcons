@@ -8,7 +8,10 @@
     }
     $sql = "SELECT * FROM usuario ORDER BY id DESC";
     $resulta = $conn->query($sql);
+<<<<<<< HEAD
+=======
 
+>>>>>>> 7507b7ec3adf269bcc8194c00d84f909733e1caf
 ?>
 
 <html>
