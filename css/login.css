@@ -30,7 +30,7 @@ body{
     justify-content: center;
     height: 200px;
     width: 100vw;
-    background-color: rgba(125, 62, 4, 0.461);
+    background-color: rgba(7, 4, 1, 0.753);
     color:white;
 }
 
@@ -64,6 +64,12 @@ label{
     text-align: center;
     color: rgb(83, 41, 11);
     font-size: 18px;
-    background-color: rgba(254, 254, 254, 0.452);
     padding: 20px;  
+}
+
+.button{
+    position: absolute;
+    top: 90%;
+    left: 60%;
+    transform: translate(-90%, -60%);
 }

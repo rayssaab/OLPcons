@@ -11,3 +11,44 @@
     
 </body>
 </html>
+
+<thead>
+                        <tr>
+                            <thead class="thead-dark">
+                                <th>
+                                <th scope="col">Nome</th>
+                                <th>
+                                <th scope="col">Lucratividade</th>
+                                <th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <th scope="row"></th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"></th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row"></th>
+                            <td colspan="2"></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"></th>
+                            <td colspan="3"></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
