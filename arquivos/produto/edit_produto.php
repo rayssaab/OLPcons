@@ -20,7 +20,7 @@ if(!empty($_GET['id'])){
         $valor_revenda = $produto['valor_revenda'];
         $lucro = $produto ['lucro_produto'];
     }
-print_r($nome_produto);
+    //print_r($nome_produto);
 }
 
 }
@@ -40,20 +40,22 @@ print_r($nome_produto);
 <body>
     <legend class="nome-produto">Edite o produto</legend>
     <a href="../../pages/estoque.php">Voltar</a>
-<form method="POST" action="funcao_estoque.php">
+<form method="POST" action="saveEdit_produto.php">
     <div class="nome-produto">
         <label for="produto">Nome do produto:</label>
         <input type="text" name="produto" value="<?php echo $nome_produto;?>"><br><br>
     </div>
     <div class="lucratividade">
         <label for="valor_pago">Valor do produto:</label>
-        <input type="number" name="valor_pago"><br><br>
+        <input type="number" name="valor_pago" value="<?php echo $valor_pago;?>"><br><br>
         <label for="valor_revenda">Valor de revenda:</label>
-        <input type="number" name="valor_revenda"><br><br>
+        <input type="number" name="valor_revenda" value="<?php echo $valor_revenda;?>"><br><br>
     </div>
     <div class="descricao-produto">
         <label for="descricao-produto">Descreva o produto:</label>
         <input type="text" name="descricao_produto"><br><br>
-        <input type="submit" value="Registrar">
+
+        <input type="hidden" name="id_estoque" value="<?php echo "$id"?>">
+        <input type="submit" value="Atualizar">
 </body>
 </html>

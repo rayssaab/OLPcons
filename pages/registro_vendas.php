@@ -18,7 +18,6 @@
                     <thead>
                         <tr>
                         <thead class="thead-dark">
-                            <th scope="col">N°</th>
                             <th scope="col">Cliente</th>
                             <th scope="col">Produto</th>
                             <th scope="col">Quantidade</th>
@@ -28,7 +27,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row">1</th>
+                            <th scope="row"></th>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -36,7 +35,7 @@
                             <td></td>
                         </tr>
                         <tr>
-                            <th scope="row">2</th>
+                            <th scope="row"></th>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -44,13 +43,13 @@
                             <td></td>
                         </tr>
                         <tr>
-                            <th scope="row">3</th>
+                            <th scope="row"></th>
                             <td colspan="2"></td>
                             <td></td>
                             <td></td>
                             <td></td>
                         </tr>
-                        <th scope="row">4</th>
+                        <th scope="row"></th>
                             <td colspan="2"></td>
                             <td></td>
                             <td></td>
@@ -71,7 +70,7 @@
                         <label for="preco_produto">Nome do produto:</label>
                         <input type="text" name="preco_produto"><br>
                         <label for="preco_venda">Quantidade de produto:</label>
-                        <input type="text" name="revenda"><br>
+                        <input type="number" name="revenda"><br>
                     </div>
                     <div class="lucratividade">
                         <label for="preco_venda">Valor Total:</label>

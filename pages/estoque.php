@@ -79,9 +79,9 @@
                     </div>
                     <div class="lucratividade">
                         <label for="valor_pago">Valor do produto:</label>
-                        <input type="number" name="valor_pago"><br><br>
+                        <input type="number" min="0" value="0" name="valor_pago"><br><br>
                         <label for="valor_revenda">Valor de revenda:</label>
-                        <input type="number" name="valor_revenda"><br><br>
+                        <input type="number" min="0" value="0" name="valor_revenda"><br><br>
                     </div>
                     <div class="descricao-produto">
                         <label for="descricao-produto">Descreva o produto:</label>
