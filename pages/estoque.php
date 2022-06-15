@@ -1,13 +1,19 @@
 <?php
     include_once ('../arquivos/conexao.php');
+    session_start();
+    if((!isset($_SESSION['usuario']) == true) and (!isset($_SESSION['senha']) == true)){
+        unset($_SESSION['usuario']);
+        unset($_SESSION['senha']);
+        header("Location: login.php");
+    }
+    $sql = "SELECT * FROM usuario ORDER BY id DESC";
+    $resulta = $conn->query($sql);
 
+    include_once ('../arquivos/conexao.php');
     $sql = "SELECT * FROM estoque ORDER BY id_estoque ";
-
     $produto_banco = $conn->query($sql);
-
-   // print_r($produto_banco);
-
  ?>
+ 
 <html>
 <head>
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon" />
@@ -63,7 +69,7 @@
                 </table>
           
             </div>
-            <h1 class="titulo"><br>Registro de Produtos</h1><br><br><br>
+            <h1 class="titulo"><br>Registro de Produtos</h1><br>
             <div class="form-produtos">
                 <!-- form registro de produtos-->
                 <form method="POST" action="../arquivos/produto/funcao_estoque.php">
