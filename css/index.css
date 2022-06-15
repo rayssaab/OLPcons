@@ -4,6 +4,7 @@ body{
     overflow-x: hidden;
     background-color: rgb(85, 222, 240); 
     font-family: 'Raleway',sans-serif;
+    align-items: center;
 }
 
 .header{
@@ -12,42 +13,13 @@ body{
     justify-content: center;
     height: 200px;
     width: 100vw;
-    background-color: rgba(0, 0, 0, 0.678);
+    background-color: rgba(7, 4, 1, 0.753);
     color:white;
 }
 
-.alinhar{
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-}
-
-form{
-    width: 300px;
-    height: 200px;
+.button{
     position: absolute;
-    text-align: center;
-    align-items: center;
-    place-items: center;
-    top: 25%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-
-.menu li{
-    list-style: none;
-    background-color: rgba(254, 254, 254, 0.5);
-    width: 100px;
-    height: 60px;
-    margin-right: 10px;
-    border-radius: 10px;
-    border: none;
-    color: rgb(83, 41, 11);
-    font-size: 17px;
-    text-align: center;
-    padding: 5px;
-    flex-wrap: wrap;
-    cursor: pointer;
-    font-weight: bold;
 }

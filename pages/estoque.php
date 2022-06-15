@@ -74,7 +74,7 @@ include_once ('../arquivos/conexao.php');
                 </table>
           
             </div>
-            <h1 class="titulo"><br>Registro de Produtos</h1><br><br><br>
+            <h1 class="titulo"><br>Registro de Produtos</h1><br>
             <div class="form-produtos">
                 <!-- form registro de produtos-->
                 <form method="POST" action="../arquivos/produto/funcao_estoque.php">
