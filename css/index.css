@@ -17,6 +17,9 @@ body{
     color:white;
 }
 
-.btn{
-    align-items: center;
+.button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
