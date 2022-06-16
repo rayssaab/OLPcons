@@ -39,7 +39,6 @@ if(!empty($_GET['id'])){
 </head>
 <body>
     <legend class="nome-produto">Edite o produto</legend>
-    <a href="../../pages/estoque.php">Voltar</a>
 <form method="POST" action="saveEdit_produto.php">
     <div class="nome-produto">
         <label for="produto">Nome do produto:</label>
@@ -54,8 +53,7 @@ if(!empty($_GET['id'])){
     <div class="descricao-produto">
         <label for="descricao-produto">Descreva o produto:</label>
         <input type="text" name="descricao_produto"><br><br>
-
         <input type="hidden" name="id_estoque" value="<?php echo "$id"?>">
-        <input type="submit" value="Atualizar">
+        <input type="submit" value="Atualizar"> <a class="a" href="../../pages/estoque.php">Voltar</a>
 </body>
 </html>
