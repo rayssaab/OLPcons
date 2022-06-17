@@ -5,7 +5,6 @@ body{
     background-color: rgb(85, 222, 240); 
     font-family: 'Raleway',sans-serif;
 }
-
 .header{
     display: flex;
     align-items: center;
@@ -15,14 +14,12 @@ body{
     background-color: rgba(7, 4, 1, 0.753);
     color:white;
 }
-
 .button{
     position: absolute;
-    top: 30%;
-    left: 38%;
-    transform: translate(-30%, -38%);
+    top: 100%;
+    left: 40%;
+    transform: translate(-100%, -40%);
 }
-
 button{
     border: 0;
     background-color: transparent;

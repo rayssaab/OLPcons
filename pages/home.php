@@ -23,15 +23,15 @@
   <body>
     <header class="header">
       <h1>Home</h1>
-    </header><br>
-    <div class="button">
+    </header>
+    <div class="button"><br><br><br><br>
       <button><a class="btn btn-outline-dark" href="../pages/estoque.php">Estoque</a></button>
       <button><a class="btn btn-outline-dark" href="../pages/registro_marcas.php">Registro de Marca</a></button>
       <button><a class="btn btn-outline-dark" href="../pages/registro_clientes.php">Registro de Cliente</a></button>
       <button><a class="btn btn-outline-dark" href="../pages/registro_pedidos.php">Registro de Pedido</a></button>
       <button><a class="btn btn-outline-dark" href="../pages/registro_vendas.php">Registro de Vendas</a></button>
       <button><a class="btn btn-outline-dark" href="../pages/relatorio_vendas.php">Relatório de Vendas</a></button>
-      <button><a class="btn btn-outline-dark" href="../arquivos/usuario/sair.php" >Sair </a></button>
+      <button><a class="btn btn-outline-dark" href="../arquivos/home/sair.php" >Sair </a></button>
       </div>
   </body>
 </html>
