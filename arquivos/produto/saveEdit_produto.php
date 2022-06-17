@@ -2,7 +2,7 @@
     include_once("../conexao.php");
         if($_SERVER["REQUEST_METHOD"] == "POST"){
             $id = $_POST['id_estoque'];
-            $nome_produto = $_POST['produto'];
+            $nome_produto = $_POST['nome_produto'];
             $marca_produto = $POST['marca_produto'];
             $valor_pago = $_POST['valor_pago'];
             $valor_revenda = $_POST['valor_revenda'];

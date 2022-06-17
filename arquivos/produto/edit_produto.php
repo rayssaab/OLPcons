@@ -5,7 +5,6 @@ if(!empty($_GET['id'])){
     $id= $_GET['id'];
     $sqlSelect = "SELECT * FROM estoque WHERE id_estoque=$id";
     $resulte_banco = $conn->query($sqlSelect);
-    //print_r($resulte_banco);
 
 if($resulte_banco->num_rows>0){
         
@@ -16,7 +15,6 @@ if($resulte_banco->num_rows>0){
     $valor_revenda = $produto['valor_revenda'];
     $lucro = $produto ['lucro_produto'];
     }
-    //print_r($nome_produto);
 }
 }
 ?>
