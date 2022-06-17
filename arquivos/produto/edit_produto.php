@@ -15,7 +15,7 @@ if($resulte_banco->num_rows>0){
     $valor_revenda = $produto['valor_revenda'];
     $lucro = $produto ['lucro_produto'];
     }
-}
+  }
 }
 ?>
 
@@ -45,10 +45,6 @@ if($resulte_banco->num_rows>0){
     <div class="valor_revenda">
         <label for="valor_revenda">Valor de revenda:</label>
         <input type="number" name="valor_revenda" value="<?php echo $valor_revenda;?>"><br><br>
-    </div>
-    <div class="descricao-produto">
-        <label for="descricao-produto">Descreva o produto:</label>
-        <input type="text" name="descricao_produto"><br><br>
     </div>
         <input type="hidden" name="id_estoque" value="<?php echo "$id"?>">
         <input type="submit" value="Atualizar"> 

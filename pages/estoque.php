@@ -78,7 +78,7 @@
                     <div class="nome_produto">
                         <label for="nome_produto">Nome do produto:</label>
                         <input type="text" name="nome_produto"><br><br>
-                    </div>
+                    </div> 
                     <div class="marca_produto">
                         <label for="marca_produto">Marca:</label>
                         <input type="text" name="marca_produto"><br><br>
@@ -91,10 +91,6 @@
                         <label for="valor_revenda">Valor de revenda:</label>
                         <input type="number" min="0" value="0" name="valor_revenda"><br><br>
                     </div>
-                    <div class="descricao-produto">
-                        <label for="descricao-produto">Descreva o produto:</label>
-                        <input type="text" name="descricao_produto"><br><br>
-                    </div> 
                     <div>   
                         <input type="submit" class="btn btn-outline-dark" value="Registrar">
                     </div>

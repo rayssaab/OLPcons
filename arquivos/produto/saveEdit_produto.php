@@ -3,7 +3,7 @@
         if($_SERVER["REQUEST_METHOD"] == "POST"){
             $id = $_POST['id_estoque'];
             $nome_produto = $_POST['nome_produto'];
-            $marca_produto = $POST['marca_produto'];
+            $marca_produto = $_POST['marca_produto'];
             $valor_pago = $_POST['valor_pago'];
             $valor_revenda = $_POST['valor_revenda'];
             $lucro_produto=$valor_revenda-$valor_pago;
