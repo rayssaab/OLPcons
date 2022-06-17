@@ -96,7 +96,7 @@
                         <input type="text" name="descricao_produto"><br><br>
                     </div> 
                     <div>   
-                        <input type="submit" value="Registrar">
+                        <input type="submit" class="btn btn-outline-dark" value="Registrar">
                     </div>
                 </form>
             </div>
