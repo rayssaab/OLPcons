@@ -2,15 +2,18 @@
 include_once('../conexao.php');
 
 if(!empty($_GET['id'])){
+
     $id= $_GET['id'];
+
+    //Procurando id na tabela
     $sqlSelect = "SELECT * FROM marca WHERE id_marca=$id";
     $resulte_banco = $conn->query($sqlSelect);
 
 if($resulte_banco->num_rows>0){
         
-    while($produto = mysqli_fetch_assoc($resulte_banco)){
-    $nome_marca = $produto['nome_marca'];
-    $lucratividade = $produto ['lucratividade'];
+    while($marca = mysqli_fetch_assoc($resulte_banco)){
+    $nome_marca = $marca['nome_marca'];
+    $lucratividade = $marca ['lucratividade'];
     }
   }
 }
