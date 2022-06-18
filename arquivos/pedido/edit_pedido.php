@@ -10,7 +10,7 @@ if($resulte_banco->num_rows>0){
         
     while($pedido = mysqli_fetch_assoc($resulte_banco)){
     $cliente = $cliente['cliente'];
-    $lproduto = $produto ['produto'];
+    $produto = $produto ['produto'];
     $quantidade = $quantidade ['quatidade'];
     $data_entrega = $data_entrega ['data_entrega'];
     }
