@@ -68,8 +68,8 @@
                         </a></td>";
                     }
                 ?>
-                </tbody>
-                </table>
+            </tbody>
+        </table>
           
     <!--Formulario-->
             <h1 class="titulo"><br>Registro de Produtos</h1><br>
@@ -100,6 +100,6 @@
         <?php if (isset($_GET['erro'])) {
             echo $_GET['erro'];
         } 
-    ?>
+        ?>
     </body>
     </html>
