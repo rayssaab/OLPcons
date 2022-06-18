@@ -28,7 +28,7 @@ if($resulte_banco->num_rows>0){
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </head>
 <body>
-    <legend class="nome_produto">Edite o produto</legend>
+    <legend class="legenda">Edite o produto</legend>
 <form method="POST" action="saveEdit_produto.php">
     <div class="nome_produto">
         <label for="nome_produto">Nome do produto:</label>

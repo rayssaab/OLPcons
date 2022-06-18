@@ -68,10 +68,10 @@ $produto_banco = $conn->query($sql);
     <!--Formulario-->         
         <h1 class="titulo">Registro de Marcas</h1><br>
         <div class="form-marca">
-            <form method="POST" action="../arquivos/marca/funcao_registro_marca.php">
+            <form method="POST" action="../arquivos/marca/funcao_r_marca.php">
                 <div class="nome_marca">
-                    <label for="marca">Nome da Marca:</label>
-                    <input type="text" name="marca"><br><br>
+                    <label for="nome_marca">Nome da Marca:</label>
+                    <input type="text" name="nome_marca"><br><br>
                 </div>
                 <div class="lucratividade">
                     <label for="lucratividade">Lucratividade:</label>
