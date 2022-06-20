@@ -10,7 +10,8 @@
     <html>
 
     </head>
-    <button><a class="btn btn-outline-dark" href="home.php" >voltar</a></button>
+    <!--botao voltar-->
+    <button><a class="btn btn-outline-dark" href="home.php" >Voltar</a></button>
     <body>
     
     <h1><header  class="titulo"><br>Relatorio de Vendas</h1><br></header>
@@ -26,34 +27,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <th scope="row"></th>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <th scope="row"></th>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <th scope="row"></th>
-                            <td colspan="2"></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <th scope="row"></th>
-                            <td colspan="2"></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                
                     </tbody>
                 </table>
     </body>

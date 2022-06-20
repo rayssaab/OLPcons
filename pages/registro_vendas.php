@@ -10,7 +10,8 @@
     <html>
 </head>
 <body>
-<button><a class="btn btn-outline-dark" href="home.php" >voltar</a></button>
+<!--botao voltar-->
+<button><a class="btn btn-outline-dark" href="home.php" >Voltar</a></button>
     <div class="corpo">
         <div class="cabecalho">
             <div id="lista">
@@ -23,38 +24,14 @@
                             <th scope="col">Produto</th>
                             <th scope="col">Quantidade</th>
                             <th scope="col">Valor</th>
-                            <th scope="col">Descrição</th>
+                            <th scope="col">Forma de Pagamento</th>
+                            <th scope="col">Nº de Parcelas</th>
+                            <th scope="col">Data de Venda</th>
+                            <th scope="col">Data de Conclusão</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <th scope="row"></th>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <th scope="row"></th>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <th scope="row"></th>
-                            <td colspan="2"></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <th scope="row"></th>
-                            <td colspan="2"></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                        
                     </tbody>
                 </table>
 
@@ -76,18 +53,30 @@
                         <input type="number" name="revenda"><br><br>
                     </div>
                     <div class="lucratividade">
-                        <label for="preco_venda">Valor Total:</label>
-                        <input type="text" name="revenda"><br>
+                        <label for="valor_produto">Valor do Produto:</label>
+                        <input type="number" name="valor_produto"><br>
                     </div>
-                    <div class="descricao-produto">
-                        <label for="descricao-produto">Descreva o produto:</label>
-                        <input type="text" name="descricao_produto"><br><br>
+                    <div class="pagamento">
+                        <label for="pagamento">Forma de Pagamento:</label>
+                        <input type="text" name="pagamento"><br><br>
+                    </div>
+                    <div class="parcelas">
+                        <label for="parcelas">Nº de Parcelas:</label>
+                        <input type="text" name="pagamento"><br><br>
+                    </div>
+                    <div class="data_venda">
+                        <label for="data_venda">Data da Venda:</label>
+                        <input type="date" name="data_venda"><br><br>
+                    </div>
+                    <div class="data_pagamento">
+                        <label for="data_pagamento">Data da Conclusão do Pagamento:</label>
+                        <input type="text" name="pagamento"><br><br>
+                    </div>
+                    <div>
                         <button type="button" class="btn btn-outline-dark">Enviar</button>
                     </div>
                 </form>
             </div>
-
-
         </div>
     </div>
     <br>

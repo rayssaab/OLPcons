@@ -31,7 +31,8 @@ $produto_banco = $conn->query($sql);
     <div class="corpo">
     <div class="cabecalho">
         <div id="lista">
-        <button><a class="btn btn-outline-dark" href="home.php" >voltar</a></button>
+    <!--botao voltar-->
+        <button><a class="btn btn-outline-dark" href="home.php" >Voltar</a></button>
     <!--Tabela!-->
         <h1 class="titulo"><br>Tabela de Marcas</h1><br>
         <table class="table table-striped table-hover">
@@ -39,7 +40,7 @@ $produto_banco = $conn->query($sql);
                 <tr>
                     <thead class="thead-dark">
                     <th scope="col">Nome</th>
-                    <th scope="col">Lucratividade</th>
+                    <th scope="col">Lucratividade(%)</th>
                     <th scope="col">Ações</th>
                 </tr>
             </thead>
