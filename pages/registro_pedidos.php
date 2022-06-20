@@ -31,6 +31,7 @@
     <div class="corpo">
     <div class="cabecalho">
     <div id="lista">
+    <button><a class="btn btn-outline-dark" href="home.php" >voltar</a></button>
     
     <!--Tabela!-->                
         <h1 class="titulo"><br>Tabela de Pedidos</h1><br>

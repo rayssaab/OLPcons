@@ -21,3 +21,11 @@ body{
     cursor: pointer;
     font-weight: bold;
 }
+button{
+    border: 0;
+    background-color: transparent;
+    outline-style: none !important;
+}
+.titulo{
+    text-align: center;
+}

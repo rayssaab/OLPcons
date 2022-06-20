@@ -10,6 +10,7 @@
     <html>
 </head>
 <body>
+<button><a class="btn btn-outline-dark" href="home.php" >voltar</a></button>
     <div class="corpo">
         <div class="cabecalho">
             <div id="lista">
