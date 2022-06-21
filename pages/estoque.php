@@ -2,7 +2,7 @@
     //permite o acesso apenas de cadastrados
     include_once ('../arquivos/conexao.php');
     session_start();
-    if((!isset($_SESSION['usuario']) == true) and (!isset($_SESSION['senha']) == true)){
+    if((!isset($_SESSION['usuario']) == TRUE) and (!isset($_SESSION['senha']) == true)){
         unset($_SESSION['usuario']);
         unset($_SESSION['senha']);
         header("Location: login.php");

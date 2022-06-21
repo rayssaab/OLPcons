@@ -1,11 +1,15 @@
 <?php
 include_once('../conexao.php');
 
+
 if(!empty($_GET['id'])){
+    
+    // porcurando id no banco
     $id= $_GET['id'];
     $sqlSelect = "SELECT * FROM estoque WHERE id_estoque=$id";
     $resulte_banco = $conn->query($sqlSelect);
 
+    // resultado da busca
 if($resulte_banco->num_rows>0){
         
     while($produto = mysqli_fetch_assoc($resulte_banco)){

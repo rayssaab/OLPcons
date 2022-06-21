@@ -72,11 +72,11 @@ $produto_banco = $conn->query($sql);
             <form method="POST" action="../arquivos/marca/funcao_r_marca.php">
                 <div class="nome_marca">
                     <label for="nome_marca">Nome da Marca:</label>
-                    <input type="text" name="nome_marca"><br><br>
+                    <input type="text" name="nome_marca">  <?php if (isset($_GET['marca'])) {echo $_GET['marca'];} ?><br><br>
                 </div>
                 <div class="lucratividade">
                     <label for="lucratividade">Lucratividade:</label>
-                    <input type="number" name="lucratividade"><br><br>
+                    <input type="number" name="lucratividade">  <?php if (isset($_GET['lucratividade'])) {echo $_GET['lucratividade'];}?><br><br>
                 </div>
                 <div>
                     <input type="submit" class="btn btn-outline-dark" value="Registrar">

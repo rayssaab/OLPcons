@@ -10,17 +10,15 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     
     // Checando se os dados estão corretos
     if($nome_produto == "" || $marca_produto == ""){
-        header("Location:../../pages/estoque.php?erro=O nome do produto ou marca não estão preenchidos");
-
-    }else if($valor_pago<= 0 || $valor_revenda <= 0 ){
-
-        header("Location:../../pages/estoque.php?erro=O valor do produto ou de revenda são iguais ou menores que 0");
+        header("Location:../../pages/estoque.php?erro=O nome ou a marca do produto estão vazios");
+        return;
     }
 
     $lucratividade = $valor_revenda-$valor_pago;
 
     if($lucratividade<0){
         header("Location:../../pages/estoque.php?erro=O seu lucro é inferior a 0");
+        return;
     }else{
     $cadastro_produto = $conn->query("INSERT INTO estoque(nome_produto, marca_produto, valor_revenda, valor_pago, lucro_produto ) VALUE ('$nome_produto', '$marca_produto', '$valor_revenda', '$valor_pago', '$lucratividade' )");}
 
