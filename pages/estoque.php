@@ -101,6 +101,9 @@
         <?php if (isset($_GET['erro'])) {
             echo $_GET['erro'];
         } 
+        if(isset($_GET['delete'])){
+            echo $_GET['delete'];
+        }
         ?>
     </body>
     </html>
