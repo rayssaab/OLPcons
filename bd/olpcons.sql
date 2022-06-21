@@ -34,7 +34,7 @@ CREATE TABLE IF NOT EXISTS `cliente` (
   `nome_cliente` varchar(30) NOT NULL,
   `compra` int NOT NULL,
   PRIMARY KEY (`id_cliente`)
-) 
+) ;
 
 -- --------------------------------------------------------
 
@@ -50,8 +50,7 @@ CREATE TABLE IF NOT EXISTS `estoque` (
   `valor_revenda` decimal(10,0) NOT NULL,
   `valor_pago` int NOT NULL,
   `lucro_produto` int NOT NULL,
-  PRIMARY KEY (`id_estoque`)
-) 
+  PRIMARY KEY (`id_estoque`));
 
 -- --------------------------------------------------------
 
@@ -64,8 +63,7 @@ CREATE TABLE IF NOT EXISTS `marca` (
   `id_marca` int NOT NULL AUTO_INCREMENT,
   `nome_marca` varchar(50) NOT NULL,
   `lucratividade` int NOT NULL,
-  PRIMARY KEY (`id_marca`)
-)
+  PRIMARY KEY (`id_marca`));
 
 -- --------------------------------------------------------
 
@@ -80,8 +78,7 @@ CREATE TABLE IF NOT EXISTS `pedido` (
   `classificacao_pedido` varchar(100) NOT NULL,
   `data` date NOT NULL,
   `nome_cliente` varchar(100) NOT NULL,
-  PRIMARY KEY (`id_pedido`)
-)
+  PRIMARY KEY (`id_pedido`));
 
 -- --------------------------------------------------------
 
@@ -94,8 +91,7 @@ CREATE TABLE IF NOT EXISTS `usuario` (
   `id` int NOT NULL AUTO_INCREMENT,
   `nome` varchar(100) DEFAULT NULL,
   `senha` varchar(100) DEFAULT NULL,
-  PRIMARY KEY (`id`)
-)
+  PRIMARY KEY (`id`));
 
 --
 -- Extraindo dados da tabela `usuario`
@@ -125,8 +121,7 @@ CREATE TABLE IF NOT EXISTS `venda` (
   `data_venda` date NOT NULL,
   `parcela` int NOT NULL,
   `data_cobranca` date NOT NULL,
-  `data_paga` date NOT NULL
-)
+  `data_paga` date NOT NULL);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
